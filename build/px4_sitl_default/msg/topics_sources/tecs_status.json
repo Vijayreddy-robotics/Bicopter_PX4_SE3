@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u008a altitude_sp;\u008a altitude_reference;\u008a height_rate_reference;\u008a height_rate_direct;\u008a height_rate_setpoint;\u008a height_rate;\u008a equivalent_airspeed_sp;\u008a true_airspeed_sp;\u008a true_airspeed_filtered;\u008a true_airspeed_derivative_sp;\u008a true_airspeed_derivative;\u008a true_airspeed_derivative_raw;\u008a total_energy_rate_sp;\u008a total_energy_rate;\u008a total_energy_balance_rate_sp;\u008a total_energy_balance_rate;\u008a throttle_integ;\u008a pitch_integ;\u008a throttle_sp;\u008a pitch_sp_rad;\u008a throttle_trim;\u008a underspeed_ratio;",
+		"fields_total_length": 578,
+		"orb_ids": [229],
+		"main_orb_id": 229,
+		"dependencies": [],
+		"name": "px4/TecsStatus"
+}

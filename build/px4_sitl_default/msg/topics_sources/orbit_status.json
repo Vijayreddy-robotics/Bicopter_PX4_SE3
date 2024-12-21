@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u008b x;\u008b y;\u008a radius;\u008a z;\u0086 frame;\u0086 yaw_behaviour;\u0086[6] _padding0;",
+		"fields_total_length": 115,
+		"orb_ids": [167],
+		"main_orb_id": 167,
+		"dependencies": [],
+		"name": "px4/OrbitStatus"
+}

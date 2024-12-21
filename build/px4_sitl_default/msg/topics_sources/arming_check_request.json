@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0086 request_id;\u0086[7] _padding0;",
+		"fields_total_length": 59,
+		"orb_ids": [16],
+		"main_orb_id": 16,
+		"dependencies": [],
+		"name": "px4/ArmingCheckRequest"
+}

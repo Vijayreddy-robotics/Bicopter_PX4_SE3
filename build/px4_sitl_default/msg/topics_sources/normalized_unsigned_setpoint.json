@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u008a normalized_setpoint;\u0086[4] _padding0;",
+		"fields_total_length": 66,
+		"orb_ids": [91, 225],
+		"main_orb_id": -1,
+		"dependencies": [],
+		"name": "px4/NormalizedUnsignedSetpoint"
+}

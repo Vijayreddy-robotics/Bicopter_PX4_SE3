@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u008a[5] coeff;\u008a[5] coeff_var;\u008a fitness;\u008a innov;\u008a dt_model;\u008a kc;\u008a ki;\u008a kd;\u008a kff;\u008a att_p;\u008a[3] rate_sp;\u008a u_filt;\u008a y_filt;\u0086 state;\u0086[3] _padding0;",
+		"fields_total_length": 221,
+		"orb_ids": [17],
+		"main_orb_id": 17,
+		"dependencies": [],
+		"name": "px4/AutotuneAttitudeControlStatus"
+}

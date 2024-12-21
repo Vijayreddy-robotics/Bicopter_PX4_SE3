@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0089 timestamp_utc;\u008b lat;\u008b lon;\u0088 seq;\u008a alt;\u008a ground_distance;\u008a[4] q;\u0082 result;\u0086[3] _padding0;",
+		"fields_total_length": 155,
+		"orb_ids": [21],
+		"main_orb_id": 21,
+		"dependencies": [],
+		"name": "px4/CameraCapture"
+}

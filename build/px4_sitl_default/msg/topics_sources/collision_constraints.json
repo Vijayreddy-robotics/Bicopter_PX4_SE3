@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u008a[2] original_setpoint;\u008a[2] adapted_setpoint;",
+		"fields_total_length": 72,
+		"orb_ids": [26],
+		"main_orb_id": 26,
+		"dependencies": [],
+		"name": "px4/CollisionConstraints"
+}

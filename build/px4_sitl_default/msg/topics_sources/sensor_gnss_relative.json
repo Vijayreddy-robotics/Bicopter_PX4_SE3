@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0089 timestamp_sample;\u0089 time_utc_usec;\u0088 device_id;\u008a[3] position;\u008a[3] position_accuracy;\u008a heading;\u008a heading_accuracy;\u008a position_length;\u008a accuracy_length;\u0087 reference_station_id;\u008c gnss_fix_ok;\u008c differential_solution;\u008c relative_position_valid;\u008c carrier_solution_floating;\u008c carrier_solution_fixed;\u008c moving_base_mode;\u008c reference_position_miss;\u008c reference_observations_miss;\u008c heading_valid;\u008c relative_position_normalized;",
+		"fields_total_length": 512,
+		"orb_ids": [211],
+		"main_orb_id": 211,
+		"dependencies": [],
+		"name": "px4/SensorGnssRelative"
+}

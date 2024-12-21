@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0089 timestamp_sample;\u008a windspeed_north;\u008a windspeed_east;\u008a variance_north;\u008a variance_east;\u008a tas_innov;\u008a tas_innov_var;\u008a beta_innov;\u008a beta_innov_var;",
+		"fields_total_length": 203,
+		"orb_ids": [287, 83],
+		"main_orb_id": 287,
+		"dependencies": [],
+		"name": "px4/Wind"
+}

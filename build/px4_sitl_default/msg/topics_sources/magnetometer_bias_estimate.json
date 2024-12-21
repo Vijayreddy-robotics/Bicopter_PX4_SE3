@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u008a[4] bias_x;\u008a[4] bias_y;\u008a[4] bias_z;\u008c[4] valid;\u008c[4] stable;",
+		"fields_total_length": 96,
+		"orb_ids": [135],
+		"main_orb_id": 135,
+		"dependencies": [],
+		"name": "px4/MagnetometerBiasEstimate"
+}

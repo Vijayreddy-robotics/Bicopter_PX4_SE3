@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0088 index;\u0088 data_length;\u0086 client_id;\u0086 request_type;\u0086 item;\u0086[56] data;\u0086[5] _padding0;",
+		"fields_total_length": 145,
+		"orb_ids": [33],
+		"main_orb_id": 33,
+		"dependencies": [],
+		"name": "px4/DatamanRequest"
+}

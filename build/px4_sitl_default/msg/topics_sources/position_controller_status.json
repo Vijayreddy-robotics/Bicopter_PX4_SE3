@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u008a nav_roll;\u008a nav_pitch;\u008a nav_bearing;\u008a target_bearing;\u008a xtrack_error;\u008a wp_dist;\u008a acceptance_radius;\u008a yaw_acceptance;\u008a altitude_acceptance;\u0086 type;\u0086[3] _padding0;",
+		"fields_total_length": 227,
+		"orb_ids": [179],
+		"main_orb_id": 179,
+		"dependencies": [],
+		"name": "px4/PositionControllerStatus"
+}

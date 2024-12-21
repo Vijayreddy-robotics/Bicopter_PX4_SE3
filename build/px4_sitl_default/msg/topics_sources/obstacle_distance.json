@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u008a increment;\u008a angle_offset;\u0087[72] distances;\u0087 min_distance;\u0087 max_distance;\u0086 frame;\u0086 sensor_type;\u0086[2] _padding0;",
+		"fields_total_length": 176,
+		"orb_ids": [151, 152],
+		"main_orb_id": 151,
+		"dependencies": [],
+		"name": "px4/ObstacleDistance"
+}

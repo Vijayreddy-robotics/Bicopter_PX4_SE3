@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0089 timestamp_sample;\u0089 ref_timestamp;\u008b ref_lat;\u008b ref_lon;\u008a x;\u008a y;\u008a z;\u008a[2] delta_xy;\u008a delta_z;\u008a vx;\u008a vy;\u008a vz;\u008a z_deriv;\u008a[2] delta_vxy;\u008a delta_vz;\u008a ax;\u008a ay;\u008a az;\u008a heading;\u008a heading_var;\u008a unaided_heading;\u008a delta_heading;\u008a tilt_var;\u008a ref_alt;\u008a dist_bottom;\u008a dist_bottom_var;\u008a delta_dist_bottom;\u008a eph;\u008a epv;\u008a evh;\u008a evv;\u008a vxy_max;\u008a vz_max;\u008a hagl_min;\u008a hagl_max;\u008c xy_valid;\u008c z_valid;\u008c v_xy_valid;\u008c v_z_valid;\u0086 xy_reset_counter;\u0086 z_reset_counter;\u0086 vxy_reset_counter;\u0086 vz_reset_counter;\u0086 heading_reset_counter;\u008c heading_good_for_control;\u008c xy_global;\u008c z_global;\u008c dist_bottom_valid;\u0086 dist_bottom_reset_counter;\u0086 dist_bottom_sensor_bitfield;\u008c dead_reckoning;\u0086[4] _padding0;",
+		"fields_total_length": 901,
+		"orb_ids": [262, 263, 87, 75],
+		"main_orb_id": 262,
+		"dependencies": [],
+		"name": "px4/VehicleLocalPosition"
+}

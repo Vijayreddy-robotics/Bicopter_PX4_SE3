@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u008a tilt_limit;\u0086 takeoff_state;\u0086[3] _padding0;",
+		"fields_total_length": 79,
+		"orb_ids": [227],
+		"main_orb_id": 227,
+		"dependencies": [],
+		"name": "px4/TakeoffStatus"
+}

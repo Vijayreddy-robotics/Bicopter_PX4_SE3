@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u008a[2] wheel_speed;\u008a[2] wheel_angle;",
+		"fields_total_length": 61,
+		"orb_ids": [286],
+		"main_orb_id": 286,
+		"dependencies": [],
+		"name": "px4/WheelEncoders"
+}

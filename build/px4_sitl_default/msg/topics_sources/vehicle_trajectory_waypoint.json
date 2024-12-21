@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0086 type;\u0086[7] _padding0;trajectory_waypoint[5] waypoints;",
+		"fields_total_length": 86,
+		"orb_ids": [280, 281],
+		"main_orb_id": 280,
+		"dependencies": ["px4/TrajectoryWaypoint"],
+		"name": "px4/VehicleTrajectoryWaypoint"
+}

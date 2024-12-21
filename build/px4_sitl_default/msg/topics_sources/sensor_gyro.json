@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0089 timestamp_sample;\u0088 device_id;\u008a x;\u008a y;\u008a z;\u008a temperature;\u0088 error_count;\u0086[3] clip_counter;\u0086 samples;\u0086[4] _padding0;",
+		"fields_total_length": 188,
+		"orb_ids": [213],
+		"main_orb_id": 213,
+		"dependencies": [],
+		"name": "px4/SensorGyro"
+}

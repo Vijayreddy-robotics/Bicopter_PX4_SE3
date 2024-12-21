@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u008a[3] position;\u008a heading;\u008a max_horizontal_speed;\u008a max_vertical_speed;\u008a max_heading_rate;\u008c flag_control_heading;\u008c flag_set_max_horizontal_speed;\u008c flag_set_max_vertical_speed;\u008c flag_set_max_heading_rate;",
+		"fields_total_length": 251,
+		"orb_ids": [110],
+		"main_orb_id": 110,
+		"dependencies": [],
+		"name": "px4/GotoSetpoint"
+}

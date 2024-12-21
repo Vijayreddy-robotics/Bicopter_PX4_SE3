@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0089 timestamp_sample;\u0089 time_last_fuse;\u0088 device_id;\u008a observation;\u008a observation_variance;\u008a innovation;\u008a innovation_filtered;\u008a innovation_variance;\u008a test_ratio;\u008a test_ratio_filtered;\u0086 estimator_instance;\u008c innovation_rejected;\u008c fused;\u0086[5] _padding0;",
+		"fields_total_length": 329,
+		"orb_ids": [47, 49, 55, 62, 44, 63, 53, 58, 52],
+		"main_orb_id": -1,
+		"dependencies": [],
+		"name": "px4/EstimatorAidSource1d"
+}

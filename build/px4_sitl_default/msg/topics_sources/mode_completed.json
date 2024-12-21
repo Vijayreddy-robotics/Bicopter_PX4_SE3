@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0086 result;\u0086 nav_state;\u0086[6] _padding0;",
+		"fields_total_length": 73,
+		"orb_ids": [146],
+		"main_orb_id": 146,
+		"dependencies": [],
+		"name": "px4/ModeCompleted"
+}

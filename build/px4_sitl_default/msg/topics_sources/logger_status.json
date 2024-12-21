@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u008a total_written_kb;\u008a write_rate_kb_s;\u0088 dropouts;\u0088 message_gaps;\u0088 buffer_used_bytes;\u0088 buffer_size_bytes;\u0086 type;\u0086 backend;\u008c is_logging;\u0086 num_messages;\u0086[4] _padding0;",
+		"fields_total_length": 245,
+		"orb_ids": [133],
+		"main_orb_id": 133,
+		"dependencies": [],
+		"name": "px4/LoggerStatus"
+}

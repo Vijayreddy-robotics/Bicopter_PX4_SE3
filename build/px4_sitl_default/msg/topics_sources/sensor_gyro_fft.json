@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0089 timestamp_sample;\u0088 device_id;\u008a sensor_sample_rate_hz;\u008a resolution_hz;\u008a[3] peak_frequencies_x;\u008a[3] peak_frequencies_y;\u008a[3] peak_frequencies_z;\u008a[3] peak_snr_x;\u008a[3] peak_snr_y;\u008a[3] peak_snr_z;\u0086[4] _padding0;",
+		"fields_total_length": 277,
+		"orb_ids": [214],
+		"main_orb_id": 214,
+		"dependencies": [],
+		"name": "px4/SensorGyroFft"
+}

@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0089 request_id;\u0087 px4_ros2_api_version;\u008d[25] name;\u008c success;\u0082 arming_check_id;\u0082 mode_id;\u0082 mode_executor_id;\u0086[1] _padding0;",
+		"fields_total_length": 179,
+		"orb_ids": [193],
+		"main_orb_id": 193,
+		"dependencies": [],
+		"name": "px4/RegisterExtComponentReply"
+}

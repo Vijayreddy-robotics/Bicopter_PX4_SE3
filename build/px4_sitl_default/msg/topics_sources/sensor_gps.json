@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0089 timestamp_sample;\u008b latitude_deg;\u008b longitude_deg;\u008b altitude_msl_m;\u008b altitude_ellipsoid_m;\u0089 time_utc_usec;\u0088 device_id;\u008a s_variance_m_s;\u008a c_variance_rad;\u008a eph;\u008a epv;\u008a hdop;\u008a vdop;\u0084 noise_per_ms;\u0084 jamming_indicator;\u008a vel_m_s;\u008a vel_n_m_s;\u008a vel_e_m_s;\u008a vel_d_m_s;\u008a cog_rad;\u0084 timestamp_time_relative;\u008a heading;\u008a heading_offset;\u008a heading_accuracy;\u008a rtcm_injection_rate;\u0087 automatic_gain_control;\u0086 fix_type;\u0086 jamming_state;\u0086 spoofing_state;\u008c vel_ned_valid;\u0086 satellites_used;\u0086 selected_rtcm_instance;\u008c rtcm_crc_failed;\u0086 rtcm_msg_used;\u0086[2] _padding0;",
+		"fields_total_length": 733,
+		"orb_ids": [212, 258],
+		"main_orb_id": 212,
+		"dependencies": [],
+		"name": "px4/SensorGps"
+}

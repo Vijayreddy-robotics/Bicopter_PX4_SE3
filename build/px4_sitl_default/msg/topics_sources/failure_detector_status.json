@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u008a imbalanced_prop_metric;\u0087 motor_failure_mask;\u008c fd_roll;\u008c fd_pitch;\u008c fd_alt;\u008c fd_ext;\u008c fd_arm_escs;\u008c fd_battery;\u008c fd_imbalanced_prop;\u008c fd_motor;\u0086[2] _padding0;",
+		"fields_total_length": 219,
+		"orb_ids": [89],
+		"main_orb_id": 89,
+		"dependencies": [],
+		"name": "px4/FailureDetectorStatus"
+}

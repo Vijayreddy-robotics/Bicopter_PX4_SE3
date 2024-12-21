@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u008a x;\u008a y;\u008a z;\u008d[10] name;\u0086[2] _padding0;",
+		"fields_total_length": 78,
+		"orb_ids": [38],
+		"main_orb_id": 38,
+		"dependencies": [],
+		"name": "px4/DebugVect"
+}

@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0089 timestamp_sample;\u008a[8] control;",
+		"fields_total_length": 62,
+		"orb_ids": [8],
+		"main_orb_id": 8,
+		"dependencies": [],
+		"name": "px4/ActuatorServos"
+}

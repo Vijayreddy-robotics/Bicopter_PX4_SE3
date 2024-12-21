@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u008a throttle_setpoint;\u008a steering_setpoint;\u008a actual_speed;\u0086[4] _padding0;",
+		"fields_total_length": 107,
+		"orb_ids": [196],
+		"main_orb_id": 196,
+		"dependencies": [],
+		"name": "px4/RoverAckermannStatus"
+}

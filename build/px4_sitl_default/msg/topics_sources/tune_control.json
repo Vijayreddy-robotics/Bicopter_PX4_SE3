@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0088 duration;\u0088 silence;\u0087 frequency;\u0086 tune_id;\u008c tune_override;\u0086 volume;\u0086[3] _padding0;",
+		"fields_total_length": 144,
+		"orb_ids": [237],
+		"main_orb_id": 237,
+		"dependencies": [],
+		"name": "px4/TuneControl"
+}

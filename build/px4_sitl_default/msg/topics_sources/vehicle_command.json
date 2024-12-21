@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u008b param5;\u008b param6;\u008a param1;\u008a param2;\u008a param3;\u008a param4;\u008a param7;\u0088 command;\u0087 source_component;\u0086 target_system;\u0086 target_component;\u0086 source_system;\u0086 confirmation;\u008c from_external;\u0086[1] _padding0;",
+		"fields_total_length": 285,
+		"orb_ids": [251, 109, 253],
+		"main_orb_id": 251,
+		"dependencies": [],
+		"name": "px4/VehicleCommand"
+}

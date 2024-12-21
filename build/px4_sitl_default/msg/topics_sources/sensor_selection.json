@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0088 accel_device_id;\u0088 gyro_device_id;",
+		"fields_total_length": 68,
+		"orb_ids": [220],
+		"main_orb_id": 220,
+		"dependencies": [],
+		"name": "px4/SensorSelection"
+}

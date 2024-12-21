@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u008a lat_accel;\u008a lat_accel_ff;\u008a bearing_feas;\u008a bearing_feas_on_track;\u008a signed_track_error;\u008a track_error_bound;\u008a airspeed_ref;\u008a bearing;\u008a heading_ref;\u008a min_ground_speed_ref;\u008a adapted_period;\u008a p_gain;\u008a time_const;\u008a can_run_factor;\u0086 wind_est_valid;\u0086[7] _padding0;",
+		"fields_total_length": 344,
+		"orb_ids": [150],
+		"main_orb_id": 150,
+		"dependencies": [],
+		"name": "px4/NpfgStatus"
+}

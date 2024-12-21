@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0089 timestamp_sample;\u008a[2] gps_hvel;\u008a gps_vvel;\u008a[2] gps_hpos;\u008a gps_vpos;\u008a[2] ev_hvel;\u008a ev_vvel;\u008a[2] ev_hpos;\u008a ev_vpos;\u008a rng_vpos;\u008a baro_vpos;\u008a[2] aux_hvel;\u008a[2] flow;\u008a heading;\u008a[3] mag_field;\u008a[3] gravity;\u008a[2] drag;\u008a airspeed;\u008a beta;\u008a hagl;\u008a hagl_rate;\u0086[4] _padding0;",
+		"fields_total_length": 374,
+		"orb_ids": [74, 73, 72],
+		"main_orb_id": 74,
+		"dependencies": [],
+		"name": "px4/EstimatorInnovations"
+}

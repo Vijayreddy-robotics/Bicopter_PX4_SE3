@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0089 timestamp_sample;\u008a[2] vel_body;\u008a[2] vel_ne;\u008a[2] vel_body_filtered;\u008a[2] vel_ne_filtered;\u008a[2] flow_rate_uncompensated;\u008a[2] flow_rate_compensated;\u008a[3] gyro_rate;\u008a[3] gyro_bias;\u008a[3] ref_gyro;\u0086[4] _padding0;",
+		"fields_total_length": 272,
+		"orb_ids": [77, 269],
+		"main_orb_id": 269,
+		"dependencies": [],
+		"name": "px4/VehicleOpticalFlowVel"
+}

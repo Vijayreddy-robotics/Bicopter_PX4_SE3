@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0088 flags;\u008a[4] q;\u008a angular_velocity_x;\u008a angular_velocity_y;\u008a angular_velocity_z;\u0086 origin_sysid;\u0086 origin_compid;\u0086 target_system;\u0086 target_component;\u0086 gimbal_device_id;\u0086[3] _padding0;",
+		"fields_total_length": 256,
+		"orb_ids": [106],
+		"main_orb_id": 106,
+		"dependencies": [],
+		"name": "px4/GimbalManagerSetAttitude"
+}

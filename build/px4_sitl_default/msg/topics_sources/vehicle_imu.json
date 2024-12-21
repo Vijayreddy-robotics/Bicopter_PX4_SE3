@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0089 timestamp_sample;\u0088 accel_device_id;\u0088 gyro_device_id;\u008a[3] delta_angle;\u008a[3] delta_velocity;\u0087 delta_angle_dt;\u0087 delta_velocity_dt;\u0086 delta_angle_clipping;\u0086 delta_velocity_clipping;\u0086 accel_calibration_count;\u0086 gyro_calibration_count;",
+		"fields_total_length": 314,
+		"orb_ids": [259],
+		"main_orb_id": 259,
+		"dependencies": [],
+		"name": "px4/VehicleImu"
+}

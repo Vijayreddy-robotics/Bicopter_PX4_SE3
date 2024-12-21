@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0088[4] accel_device_ids;\u008a[4] accel_temperature;\u008a[3] accel_offset_0;\u008a[3] accel_offset_1;\u008a[3] accel_offset_2;\u008a[3] accel_offset_3;\u0088[4] gyro_device_ids;\u008a[4] gyro_temperature;\u008a[3] gyro_offset_0;\u008a[3] gyro_offset_1;\u008a[3] gyro_offset_2;\u008a[3] gyro_offset_3;\u0088[4] mag_device_ids;\u008a[4] mag_temperature;\u008a[3] mag_offset_0;\u008a[3] mag_offset_1;\u008a[3] mag_offset_2;\u008a[3] mag_offset_3;\u0088[4] baro_device_ids;\u008a[4] baro_temperature;\u008a baro_offset_0;\u008a baro_offset_1;\u008a baro_offset_2;\u008a baro_offset_3;",
+		"fields_total_length": 591,
+		"orb_ids": [210],
+		"main_orb_id": 210,
+		"dependencies": [],
+		"name": "px4/SensorCorrection"
+}

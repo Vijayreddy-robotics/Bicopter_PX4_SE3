@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0089 can_arm_mode_flags;\u0089 can_run_mode_flags;\u0089 health_is_present_flags;\u0089 health_warning_flags;\u0089 health_error_flags;\u0089 arming_check_warning_flags;\u0089 arming_check_error_flags;",
+		"fields_total_length": 236,
+		"orb_ids": [118],
+		"main_orb_id": 118,
+		"dependencies": [],
+		"name": "px4/HealthReport"
+}

@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0088 safe_points_id;\u008c is_evaluation_pending;\u008c has_vtol_approach;\u0086 rtl_type;\u0086 safe_point_index;",
+		"fields_total_length": 135,
+		"orb_ids": [201],
+		"main_orb_id": 201,
+		"dependencies": [],
+		"name": "px4/RtlStatus"
+}

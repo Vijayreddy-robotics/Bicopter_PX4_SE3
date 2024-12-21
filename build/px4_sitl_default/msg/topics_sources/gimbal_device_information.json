@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0089 uid;\u0088 firmware_version;\u0088 hardware_version;\u008a roll_min;\u008a roll_max;\u008a pitch_min;\u008a pitch_max;\u008a yaw_min;\u008a yaw_max;\u0087 cap_flags;\u0087 custom_cap_flags;\u0086[32] vendor_name;\u0086[32] model_name;\u0086[32] custom_name;\u0086 gimbal_device_compid;\u0086[3] _padding0;",
+		"fields_total_length": 340,
+		"orb_ids": [103],
+		"main_orb_id": 103,
+		"dependencies": [],
+		"name": "px4/GimbalDeviceInformation"
+}

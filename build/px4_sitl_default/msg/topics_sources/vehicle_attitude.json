@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0089 timestamp_sample;\u008a[4] q;\u008a[4] delta_q_reset;\u0086 quat_reset_counter;\u0086[7] _padding0;",
+		"fields_total_length": 127,
+		"orb_ids": [248, 249, 85, 64],
+		"main_orb_id": 248,
+		"dependencies": [],
+		"name": "px4/VehicleAttitude"
+}

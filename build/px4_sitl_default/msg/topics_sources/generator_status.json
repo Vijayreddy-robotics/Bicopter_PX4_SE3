@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0089 status;\u008a battery_current;\u008a load_current;\u008a power_generated;\u008a bus_voltage;\u008a bat_current_setpoint;\u0088 runtime;\u0084 time_until_maintenance;\u0087 generator_speed;\u0083 rectifier_temperature;\u0083 generator_temperature;\u0086[6] _padding0;",
+		"fields_total_length": 297,
+		"orb_ids": [98],
+		"main_orb_id": 98,
+		"dependencies": [],
+		"name": "px4/GeneratorStatus"
+}

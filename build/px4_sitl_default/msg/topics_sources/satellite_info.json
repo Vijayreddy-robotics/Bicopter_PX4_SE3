@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0086 count;\u0086[20] svid;\u0086[20] used;\u0086[20] elevation;\u0086[20] azimuth;\u0086[20] snr;\u0086[20] prn;\u0086[7] _padding0;",
+		"fields_total_length": 162,
+		"orb_ids": [204],
+		"main_orb_id": 204,
+		"dependencies": [],
+		"name": "px4/SatelliteInfo"
+}

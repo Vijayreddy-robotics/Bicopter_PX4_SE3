@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0089 last_at_ok_timestamp;\u0087 tx_buf_write_index;\u0087 rx_buf_read_index;\u0087 rx_buf_end_index;\u0087 failed_sbd_sessions;\u0087 successful_sbd_sessions;\u0087 num_tx_buf_reset;\u0086 signal_quality;\u0086 state;\u008c ring_pending;\u008c tx_buf_write_pending;\u008c tx_session_pending;\u008c rx_read_pending;\u008c rx_session_pending;\u0086[5] _padding0;",
+		"fields_total_length": 389,
+		"orb_ids": [124],
+		"main_orb_id": 124,
+		"dependencies": [],
+		"name": "px4/IridiumsbdStatus"
+}

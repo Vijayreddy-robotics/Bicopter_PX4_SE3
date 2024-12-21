@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0087 status;\u0087 mcc;\u0087 mnc;\u0087 lac;\u0086 failure_reason;\u0086 type;\u0086 quality;\u0086[5] _padding0;",
+		"fields_total_length": 147,
+		"orb_ids": [25],
+		"main_orb_id": 25,
+		"dependencies": [],
+		"name": "px4/CellularStatus"
+}

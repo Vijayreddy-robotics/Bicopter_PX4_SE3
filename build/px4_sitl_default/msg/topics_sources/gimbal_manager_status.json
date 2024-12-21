@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0088 flags;\u0086 gimbal_device_id;\u0086 primary_control_sysid;\u0086 primary_control_compid;\u0086 secondary_control_sysid;\u0086 secondary_control_compid;\u0086[7] _padding0;",
+		"fields_total_length": 206,
+		"orb_ids": [108],
+		"main_orb_id": 108,
+		"dependencies": [],
+		"name": "px4/GimbalManagerStatus"
+}

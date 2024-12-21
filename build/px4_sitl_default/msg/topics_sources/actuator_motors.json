@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0089 timestamp_sample;\u008a[12] control;\u0087 reversible_flags;\u0086[6] _padding0;",
+		"fields_total_length": 110,
+		"orb_ids": [4],
+		"main_orb_id": 4,
+		"dependencies": [],
+		"name": "px4/ActuatorMotors"
+}

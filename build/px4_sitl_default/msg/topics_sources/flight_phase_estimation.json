@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0086 flight_phase;\u0086[7] _padding0;",
+		"fields_total_length": 61,
+		"orb_ids": [92],
+		"main_orb_id": 92,
+		"dependencies": [],
+		"name": "px4/FlightPhaseEstimation"
+}

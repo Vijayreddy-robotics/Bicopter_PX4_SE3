@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0089 timestamp_sample;\u0088 device_id;\u008a differential_pressure_pa;\u008a temperature;\u0088 error_count;",
+		"fields_total_length": 134,
+		"orb_ids": [39],
+		"main_orb_id": 39,
+		"dependencies": [],
+		"name": "px4/DifferentialPressure"
+}

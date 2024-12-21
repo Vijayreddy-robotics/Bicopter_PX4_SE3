@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0088 geofence_id;\u0086 status;\u0086[3] _padding0;",
+		"fields_total_length": 76,
+		"orb_ids": [100],
+		"main_orb_id": 100,
+		"dependencies": [],
+		"name": "px4/GeofenceStatus"
+}

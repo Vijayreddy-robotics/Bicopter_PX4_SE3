@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u008b lat;\u008b lon;\u008a vx;\u008a vy;\u008a vz;\u008a alt;\u008a yaw;\u008a loiter_radius;\u008a loiter_minor_radius;\u008a loiter_orientation;\u008a acceptance_radius;\u008a cruising_speed;\u008a cruising_throttle;\u008c valid;\u0086 type;\u008c loiter_direction_counter_clockwise;\u0086 loiter_pattern;\u008c gliding_enabled;\u0086[7] _padding0;",
+		"fields_total_length": 357,
+		"orb_ids": [180],
+		"main_orb_id": 180,
+		"dependencies": [],
+		"name": "px4/PositionSetpoint"
+}

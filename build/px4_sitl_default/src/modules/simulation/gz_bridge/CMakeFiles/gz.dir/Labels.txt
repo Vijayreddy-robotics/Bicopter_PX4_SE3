@@ -1,0 +1,13 @@
+# Target labels
+ gz
+# Source files and their labels
+/home/vijay/PX4-Autopilot/build/px4_sitl_default/src/modules/simulation/gz_bridge/CMakeFiles/gz
+/home/vijay/PX4-Autopilot/build/px4_sitl_default/src/modules/simulation/gz_bridge/CMakeFiles/gz.rule
+/home/vijay/PX4-Autopilot/build/px4_sitl_default/src/modules/simulation/gz_bridge/CMakeFiles/gz-complete.rule
+/home/vijay/PX4-Autopilot/build/px4_sitl_default/external/Stamp/gz/gz-build.rule
+/home/vijay/PX4-Autopilot/build/px4_sitl_default/external/Stamp/gz/gz-configure.rule
+/home/vijay/PX4-Autopilot/build/px4_sitl_default/external/Stamp/gz/gz-download.rule
+/home/vijay/PX4-Autopilot/build/px4_sitl_default/external/Stamp/gz/gz-install.rule
+/home/vijay/PX4-Autopilot/build/px4_sitl_default/external/Stamp/gz/gz-mkdir.rule
+/home/vijay/PX4-Autopilot/build/px4_sitl_default/external/Stamp/gz/gz-patch.rule
+/home/vijay/PX4-Autopilot/build/px4_sitl_default/external/Stamp/gz/gz-update.rule

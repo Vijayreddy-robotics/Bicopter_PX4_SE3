@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u008a lookahead_distance;\u008a heading_error_deg;\u0086 state_machine;\u0086[7] _padding0;",
+		"fields_total_length": 111,
+		"orb_ids": [197],
+		"main_orb_id": 197,
+		"dependencies": [],
+		"name": "px4/RoverDifferentialGuidanceStatus"
+}

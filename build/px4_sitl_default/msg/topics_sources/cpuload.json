@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u008a load;\u008a ram_usage;",
+		"fields_total_length": 46,
+		"orb_ids": [32],
+		"main_orb_id": 32,
+		"dependencies": [],
+		"name": "px4/Cpuload"
+}

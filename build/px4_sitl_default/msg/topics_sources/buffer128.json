@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0086 len;\u0086[128] data;\u0086[7] _padding0;",
+		"fields_total_length": 70,
+		"orb_ids": [284],
+		"main_orb_id": -1,
+		"dependencies": [],
+		"name": "px4/Buffer128"
+}

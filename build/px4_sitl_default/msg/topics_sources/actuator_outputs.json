@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0088 noutputs;\u008a[16] output;\u0086[4] _padding0;",
+		"fields_total_length": 75,
+		"orb_ids": [5, 7, 6],
+		"main_orb_id": 5,
+		"dependencies": [],
+		"name": "px4/ActuatorOutputs"
+}

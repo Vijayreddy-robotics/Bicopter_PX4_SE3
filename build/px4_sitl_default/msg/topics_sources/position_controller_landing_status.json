@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u008a lateral_touchdown_offset;\u008c flaring;\u0086 abort_status;\u0086[2] _padding0;",
+		"fields_total_length": 105,
+		"orb_ids": [178],
+		"main_orb_id": 178,
+		"dependencies": [],
+		"name": "px4/PositionControllerLandingStatus"
+}

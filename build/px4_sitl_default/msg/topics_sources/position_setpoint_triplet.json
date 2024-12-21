@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;position_setpoint previous;position_setpoint current;position_setpoint next;",
+		"fields_total_length": 95,
+		"orb_ids": [181],
+		"main_orb_id": 181,
+		"dependencies": ["px4/PositionSetpoint"],
+		"name": "px4/PositionSetpointTriplet"
+}

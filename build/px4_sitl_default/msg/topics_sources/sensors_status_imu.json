@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0088 accel_device_id_primary;\u0088[4] accel_device_ids;\u008a[4] accel_inconsistency_m_s_s;\u0088 gyro_device_id_primary;\u0088[4] gyro_device_ids;\u008a[4] gyro_inconsistency_rad_s;\u008c[4] accel_healthy;\u0086[4] accel_priority;\u008c[4] gyro_healthy;\u0086[4] gyro_priority;",
+		"fields_total_length": 304,
+		"orb_ids": [223],
+		"main_orb_id": 223,
+		"dependencies": [],
+		"name": "px4/SensorsStatusImu"
+}

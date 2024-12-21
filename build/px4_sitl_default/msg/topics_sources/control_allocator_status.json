@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u008a[3] unallocated_torque;\u008a[3] unallocated_thrust;\u0087 handled_motor_failure_mask;\u008c torque_setpoint_achieved;\u008c thrust_setpoint_achieved;\u0082[16] actuator_saturation;\u0086[4] _padding0;",
+		"fields_total_length": 223,
+		"orb_ids": [31],
+		"main_orb_id": 31,
+		"dependencies": [],
+		"name": "px4/ControlAllocatorStatus"
+}

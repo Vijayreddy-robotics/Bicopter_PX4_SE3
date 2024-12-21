@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0086[20] id_or_mac;\u0086 operator_id_type;\u008d[20] operator_id;\u0086[7] _padding0;",
+		"fields_total_length": 108,
+		"orb_ids": [156],
+		"main_orb_id": 156,
+		"dependencies": [],
+		"name": "px4/OpenDroneIdOperatorId"
+}

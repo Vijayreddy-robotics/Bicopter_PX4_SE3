@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0089 timestamp_last_signal;\u0084 rssi;\u008a rssi_dbm;\u0087 rc_lost_frame_count;\u0087 rc_total_frame_count;\u0087 rc_ppm_frame_length;\u0087[18] values;\u0086 channel_count;\u008c rc_failsafe;\u008c rc_lost;\u0086 input_source;\u0082 link_quality;\u0086[1] _padding0;",
+		"fields_total_length": 300,
+		"orb_ids": [122],
+		"main_orb_id": 122,
+		"dependencies": [],
+		"name": "px4/InputRc"
+}

@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0089 timestamp_sample;\u0088 device_id;\u008a dt;\u008a scale;\u0083[32] x;\u0083[32] y;\u0083[32] z;\u0086 samples;\u0086[3] _padding0;",
+		"fields_total_length": 164,
+		"orb_ids": [215],
+		"main_orb_id": 215,
+		"dependencies": [],
+		"name": "px4/SensorGyroFifo"
+}

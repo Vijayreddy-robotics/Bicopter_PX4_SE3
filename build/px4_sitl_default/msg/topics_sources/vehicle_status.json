@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0089 armed_time;\u0089 takeoff_time;\u0089 nav_state_timestamp;\u0088 valid_nav_states_mask;\u0088 can_set_nav_states_mask;\u0087 failure_detector_status;\u0086 arming_state;\u0086 latest_arming_reason;\u0086 latest_disarming_reason;\u0086 nav_state_user_intention;\u0086 nav_state;\u0086 executor_in_charge;\u0086 hil_state;\u0086 vehicle_type;\u008c failsafe;\u008c failsafe_and_user_took_over;\u0086 failsafe_defer_state;\u008c gcs_connection_lost;\u0086 gcs_connection_lost_counter;\u008c high_latency_data_link_lost;\u008c is_vtol;\u008c is_vtol_tailsitter;\u008c in_transition_mode;\u008c in_transition_to_fw;\u0086 system_type;\u0086 system_id;\u0086 component_id;\u008c safety_button_available;\u008c safety_off;\u008c power_input_valid;\u008c usb_connected;\u008c open_drone_id_system_present;\u008c open_drone_id_system_healthy;\u008c parachute_system_present;\u008c parachute_system_healthy;\u008c avoidance_system_required;\u008c avoidance_system_valid;\u008c rc_calibration_in_progress;\u008c calibration_enabled;\u008c pre_flight_checks_pass;\u0086[4] _padding0;",
+		"fields_total_length": 1081,
+		"orb_ids": [272],
+		"main_orb_id": 272,
+		"dependencies": [],
+		"name": "px4/VehicleStatus"
+}

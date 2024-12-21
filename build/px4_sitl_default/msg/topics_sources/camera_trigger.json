@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0089 timestamp_utc;\u0088 seq;\u008c feedback;\u0086[3] _padding0;",
+		"fields_total_length": 90,
+		"orb_ids": [23],
+		"main_orb_id": 23,
+		"dependencies": [],
+		"name": "px4/CameraTrigger"
+}

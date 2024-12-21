@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0088 flags;\u008a pitch;\u008a yaw;\u008a pitch_rate;\u008a yaw_rate;\u0086 origin_sysid;\u0086 origin_compid;\u0086 target_system;\u0086 target_component;\u0086 gimbal_device_id;\u0086[7] _padding0;",
+		"fields_total_length": 224,
+		"orb_ids": [107],
+		"main_orb_id": 107,
+		"dependencies": [],
+		"name": "px4/GimbalManagerSetManualControl"
+}

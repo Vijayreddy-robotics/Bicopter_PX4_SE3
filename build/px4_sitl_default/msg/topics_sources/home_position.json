@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u008b lat;\u008b lon;\u008a alt;\u008a x;\u008a y;\u008a z;\u008a yaw;\u0088 update_count;\u008c valid_alt;\u008c valid_hpos;\u008c valid_lpos;\u008c manual_home;\u0086[4] _padding0;",
+		"fields_total_length": 192,
+		"orb_ids": [120],
+		"main_orb_id": 120,
+		"dependencies": [],
+		"name": "px4/HomePosition"
+}

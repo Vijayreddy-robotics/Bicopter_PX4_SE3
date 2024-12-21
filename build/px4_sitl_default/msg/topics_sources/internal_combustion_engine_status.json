@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0088 flags;\u0088 engine_speed_rpm;\u008a spark_dwell_time_ms;\u008a atmospheric_pressure_kpa;\u008a intake_manifold_pressure_kpa;\u008a intake_manifold_temperature;\u008a coolant_temperature;\u008a oil_pressure;\u008a oil_temperature;\u008a fuel_pressure;\u008a fuel_consumption_rate_cm3pm;\u008a estimated_consumed_fuel_volume_cm3;\u008a ignition_timing_deg;\u008a injection_time_ms;\u008a cylinder_head_temperature;\u008a exhaust_gas_temperature;\u008a lambda_coefficient;\u0086 state;\u0086 engine_load_percent;\u0086 throttle_position_percent;\u0086 ecu_index;\u0086 spark_plug_usage;\u0086[7] _padding0;",
+		"fields_total_length": 625,
+		"orb_ids": [123],
+		"main_orb_id": 123,
+		"dependencies": [],
+		"name": "px4/InternalCombustionEngineStatus"
+}

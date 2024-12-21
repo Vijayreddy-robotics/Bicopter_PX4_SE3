@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0086 request_id;\u0086 registration_id;\u0086 health_component_index;\u008c health_component_is_present;\u008c health_component_warning;\u008c health_component_error;\u008c can_arm_and_run;\u0086 num_events;\u008c mode_req_angular_velocity;\u008c mode_req_attitude;\u008c mode_req_local_alt;\u008c mode_req_local_position;\u008c mode_req_local_position_relaxed;\u008c mode_req_global_position;\u008c mode_req_mission;\u008c mode_req_home_position;\u008c mode_req_prevent_arming;\u008c mode_req_manual_control;\u0086[6] _padding0;event[5] events;",
+		"fields_total_length": 543,
+		"orb_ids": [15],
+		"main_orb_id": 15,
+		"dependencies": ["px4/Event"],
+		"name": "px4/ArmingCheckReply"
+}

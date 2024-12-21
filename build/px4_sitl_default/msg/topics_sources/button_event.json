@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u008c triggered;\u0086[7] _padding0;",
+		"fields_total_length": 55,
+		"orb_ids": [20, 203],
+		"main_orb_id": 20,
+		"dependencies": [],
+		"name": "px4/ButtonEvent"
+}

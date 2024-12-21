@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u008b lat;\u008b lon;\u0088 icao_address;\u008a altitude;\u008a heading;\u008a hor_velocity;\u008a ver_velocity;\u0087 flags;\u0087 squawk;\u0086 altitude_type;\u008d[9] callsign;\u0086 emitter_type;\u0086 tslc;\u0086[18] uas_id;\u0086[2] _padding0;",
+		"fields_total_length": 274,
+		"orb_ids": [236],
+		"main_orb_id": 236,
+		"dependencies": [],
+		"name": "px4/TransponderReport"
+}

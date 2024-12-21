@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0088 cap_flags;\u008a roll_min;\u008a roll_max;\u008a pitch_min;\u008a pitch_max;\u008a yaw_min;\u008a yaw_max;\u0086 gimbal_device_id;\u0086[3] _padding0;",
+		"fields_total_length": 174,
+		"orb_ids": [105],
+		"main_orb_id": 105,
+		"dependencies": [],
+		"name": "px4/GimbalManagerInformation"
+}

@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u008a forward_speed_setpoint;\u008a forward_speed_setpoint_normalized;\u008a yaw_rate_setpoint;\u008a yaw_rate_setpoint_normalized;\u008a yaw_setpoint;\u0086[4] _padding0;",
+		"fields_total_length": 187,
+		"orb_ids": [198],
+		"main_orb_id": 198,
+		"dependencies": [],
+		"name": "px4/RoverDifferentialSetpoint"
+}

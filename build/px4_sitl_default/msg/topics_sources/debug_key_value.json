@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u008a value;\u008d[10] key;\u0086[2] _padding0;",
+		"fields_total_length": 65,
+		"orb_ids": [36],
+		"main_orb_id": 36,
+		"dependencies": [],
+		"name": "px4/DebugKeyValue"
+}

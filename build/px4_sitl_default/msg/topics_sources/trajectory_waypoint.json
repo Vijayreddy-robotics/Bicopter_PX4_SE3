@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u008a[3] position;\u008a[3] velocity;\u008a[3] acceleration;\u008a yaw;\u008a yaw_speed;\u008c point_valid;\u0086 type;\u0086[2] _padding0;",
+		"fields_total_length": 154,
+		"orb_ids": [235],
+		"main_orb_id": 235,
+		"dependencies": [],
+		"name": "px4/TrajectoryWaypoint"
+}

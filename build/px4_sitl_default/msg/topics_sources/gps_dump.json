@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0086 instance;\u0086 len;\u0086[79] data;\u0086[7] _padding0;",
+		"fields_total_length": 86,
+		"orb_ids": [115],
+		"main_orb_id": 115,
+		"dependencies": [],
+		"name": "px4/GpsDump"
+}

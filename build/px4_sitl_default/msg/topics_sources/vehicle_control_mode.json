@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u008c flag_armed;\u008c flag_multicopter_position_control_enabled;\u008c flag_control_manual_enabled;\u008c flag_control_auto_enabled;\u008c flag_control_offboard_enabled;\u008c flag_control_position_enabled;\u008c flag_control_velocity_enabled;\u008c flag_control_altitude_enabled;\u008c flag_control_climb_rate_enabled;\u008c flag_control_acceleration_enabled;\u008c flag_control_attitude_enabled;\u008c flag_control_rates_enabled;\u008c flag_control_allocation_enabled;\u008c flag_control_termination_enabled;\u0086 source_id;\u0086[1] _padding0;",
+		"fields_total_length": 543,
+		"orb_ids": [255, 28],
+		"main_orb_id": 255,
+		"dependencies": [],
+		"name": "px4/VehicleControlMode"
+}

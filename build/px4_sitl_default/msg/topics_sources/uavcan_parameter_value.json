@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0085 int_value;\u008a real_value;\u0083 param_index;\u0087 param_count;\u0086 node_id;\u008d[17] param_id;\u0086 param_type;\u0086[5] _padding0;",
+		"fields_total_length": 169,
+		"orb_ids": [239],
+		"main_orb_id": 239,
+		"dependencies": [],
+		"name": "px4/UavcanParameterValue"
+}

@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0084 current_seq;\u0084 land_start_index;\u0084 land_index;\u0088 mission_id;\u0088 geofence_id;\u0088 safe_points_id;\u0087 count;\u0086 mission_dataman_id;\u0086 fence_dataman_id;\u0086 safepoint_dataman_id;\u0086[3] _padding0;",
+		"fields_total_length": 265,
+		"orb_ids": [144],
+		"main_orb_id": 144,
+		"dependencies": [],
+		"name": "px4/Mission"
+}

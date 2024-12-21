@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0089 timestamp_sample;\u0088 gyro_device_id;\u008a[3] gyro_bias;\u008a gyro_bias_limit;\u008a[3] gyro_bias_variance;\u0088 accel_device_id;\u008a[3] accel_bias;\u008a accel_bias_limit;\u008a[3] accel_bias_variance;\u0088 mag_device_id;\u008a[3] mag_bias;\u008a mag_bias_limit;\u008a[3] mag_bias_variance;\u008c gyro_bias_valid;\u008c gyro_bias_stable;\u008c accel_bias_valid;\u008c accel_bias_stable;\u008c mag_bias_valid;\u008c mag_bias_stable;\u0086[2] _padding0;",
+		"fields_total_length": 474,
+		"orb_ids": [79],
+		"main_orb_id": 79,
+		"dependencies": [],
+		"name": "px4/EstimatorSensorBias"
+}

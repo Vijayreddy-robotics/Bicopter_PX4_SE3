@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0089 timestamp_sample;\u0089 calibration_interval_perside_us;\u0088 done_count;\u0088 calibration_points_perside;\u0088[4] calibration_counter_total;\u008a[4] x;\u008a[4] y;\u008a[4] z;\u008c[4] side_data_collected;\u0086[4] _padding0;",
+		"fields_total_length": 262,
+		"orb_ids": [134],
+		"main_orb_id": 134,
+		"dependencies": [],
+		"name": "px4/MagWorkerData"
+}

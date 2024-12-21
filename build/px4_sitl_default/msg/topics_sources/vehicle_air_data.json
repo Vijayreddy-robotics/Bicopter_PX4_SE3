@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0089 timestamp_sample;\u0088 baro_device_id;\u008a baro_alt_meter;\u008a baro_temp_celcius;\u008a baro_pressure_pa;\u008a rho;\u008a eas2tas;\u0086 calibration_count;\u0086[7] _padding0;",
+		"fields_total_length": 208,
+		"orb_ids": [244],
+		"main_orb_id": 244,
+		"dependencies": [],
+		"name": "px4/VehicleAirData"
+}

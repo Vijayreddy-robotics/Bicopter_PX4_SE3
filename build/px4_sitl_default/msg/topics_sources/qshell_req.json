@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0088 strlen;\u0088 request_sequence;\u008d[100] cmd;\u0086[4] _padding0;",
+		"fields_total_length": 96,
+		"orb_ids": [187],
+		"main_orb_id": 187,
+		"dependencies": [],
+		"name": "px4/QshellReq"
+}

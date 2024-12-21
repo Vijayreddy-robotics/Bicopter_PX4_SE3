@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0088 accel_device_id;\u0088 gyro_device_id;\u0088[3] accel_clipping;\u0088[3] gyro_clipping;\u0088 accel_error_count;\u0088 gyro_error_count;\u008a accel_rate_hz;\u008a gyro_rate_hz;\u008a accel_raw_rate_hz;\u008a gyro_raw_rate_hz;\u008a accel_vibration_metric;\u008a gyro_vibration_metric;\u008a delta_angle_coning_metric;\u008a[3] mean_accel;\u008a[3] mean_gyro;\u008a[3] var_accel;\u008a[3] var_gyro;\u008a temperature_accel;\u008a temperature_gyro;\u0086[4] _padding0;",
+		"fields_total_length": 493,
+		"orb_ids": [260],
+		"main_orb_id": 260,
+		"dependencies": [],
+		"name": "px4/VehicleImuStatus"
+}

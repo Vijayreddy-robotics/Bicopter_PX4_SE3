@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u008a data_rate;\u008a rate_multiplier;\u008a tx_rate_avg;\u008a tx_error_rate_avg;\u0088 tx_message_count;\u0088 tx_buffer_overruns;\u008a rx_rate_avg;\u0088 rx_message_count;\u0088 rx_message_lost_count;\u0088 rx_buffer_overruns;\u0088 rx_parse_errors;\u0088 rx_packet_drop_count;\u008a rx_message_lost_rate;\u0086 type;\u0086 mode;\u008c flow_control;\u008c forwarding;\u008c mavlink_v2;\u008c ftp;\u0086 streams;\u008c heartbeat_type_antenna_tracker;\u008c heartbeat_type_gcs;\u008c heartbeat_type_onboard_controller;\u008c heartbeat_type_gimbal;\u008c heartbeat_type_adsb;\u008c heartbeat_type_camera;\u008c heartbeat_type_parachute;\u008c heartbeat_type_open_drone_id;\u008c heartbeat_component_telemetry_radio;\u008c heartbeat_component_log;\u008c heartbeat_component_osd;\u008c heartbeat_component_obstacle_avoidance;\u008c heartbeat_component_vio;\u008c heartbeat_component_pairing_manager;\u008c heartbeat_component_udp_bridge;\u008c heartbeat_component_uart_bridge;\u008c avoidance_system_healthy;\u008c open_drone_id_system_healthy;\u008c parachute_system_healthy;\u0086[2] _padding0;",
+		"fields_total_length": 1082,
+		"orb_ids": [230],
+		"main_orb_id": 230,
+		"dependencies": [],
+		"name": "px4/TelemetryStatus"
+}

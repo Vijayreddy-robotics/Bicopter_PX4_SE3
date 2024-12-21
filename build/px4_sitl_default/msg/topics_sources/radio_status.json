@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0087 rxerrors;\u0087 fix;\u0086 rssi;\u0086 remote_rssi;\u0086 txbuf;\u0086 noise;\u0086 remote_noise;\u0086[7] _padding0;",
+		"fields_total_length": 153,
+		"orb_ids": [189],
+		"main_orb_id": 189,
+		"dependencies": [],
+		"name": "px4/RadioStatus"
+}

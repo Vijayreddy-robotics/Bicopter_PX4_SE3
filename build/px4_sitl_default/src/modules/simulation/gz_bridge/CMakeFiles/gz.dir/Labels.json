@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/vijay/PX4-Autopilot/build/px4_sitl_default/src/modules/simulation/gz_bridge/CMakeFiles/gz"
+		},
+		{
+			"file" : "/home/vijay/PX4-Autopilot/build/px4_sitl_default/src/modules/simulation/gz_bridge/CMakeFiles/gz.rule"
+		},
+		{
+			"file" : "/home/vijay/PX4-Autopilot/build/px4_sitl_default/src/modules/simulation/gz_bridge/CMakeFiles/gz-complete.rule"
+		},
+		{
+			"file" : "/home/vijay/PX4-Autopilot/build/px4_sitl_default/external/Stamp/gz/gz-build.rule"
+		},
+		{
+			"file" : "/home/vijay/PX4-Autopilot/build/px4_sitl_default/external/Stamp/gz/gz-configure.rule"
+		},
+		{
+			"file" : "/home/vijay/PX4-Autopilot/build/px4_sitl_default/external/Stamp/gz/gz-download.rule"
+		},
+		{
+			"file" : "/home/vijay/PX4-Autopilot/build/px4_sitl_default/external/Stamp/gz/gz-install.rule"
+		},
+		{
+			"file" : "/home/vijay/PX4-Autopilot/build/px4_sitl_default/external/Stamp/gz/gz-mkdir.rule"
+		},
+		{
+			"file" : "/home/vijay/PX4-Autopilot/build/px4_sitl_default/external/Stamp/gz/gz-patch.rule"
+		},
+		{
+			"file" : "/home/vijay/PX4-Autopilot/build/px4_sitl_default/external/Stamp/gz/gz-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"gz"
+		],
+		"name" : "gz"
+	}
+}

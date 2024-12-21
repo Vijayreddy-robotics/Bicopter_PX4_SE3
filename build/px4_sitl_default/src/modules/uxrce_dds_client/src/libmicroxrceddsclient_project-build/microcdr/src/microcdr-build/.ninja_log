@@ -1,0 +1,16 @@
+# ninja log v5
+0	134	1725899973294473164	ucdr-prefix/src/ucdr-stamp/ucdr-mkdir	e17b2238295e8a51
+156	200	1725899973344473165	ucdr-prefix/src/ucdr-stamp/ucdr-update	4d95784bb038dee7
+0	134	1725899973294473164	/home/vijay/PX4-Autopilot/build/px4_sitl_default/src/modules/uxrce_dds_client/src/libmicroxrceddsclient_project-build/microcdr/src/microcdr-build/ucdr-prefix/src/ucdr-stamp/ucdr-mkdir	e17b2238295e8a51
+134	156	1725899973304473164	ucdr-prefix/src/ucdr-stamp/ucdr-download	c5c27b5dbfcb221d
+134	156	1725899973304473164	/home/vijay/PX4-Autopilot/build/px4_sitl_default/src/modules/uxrce_dds_client/src/libmicroxrceddsclient_project-build/microcdr/src/microcdr-build/ucdr-prefix/src/ucdr-stamp/ucdr-download	c5c27b5dbfcb221d
+200	228	1725899973374473165	/home/vijay/PX4-Autopilot/build/px4_sitl_default/src/modules/uxrce_dds_client/src/libmicroxrceddsclient_project-build/microcdr/src/microcdr-build/ucdr-prefix/src/ucdr-stamp/ucdr-patch	4daab1a6b96adaff
+156	200	1725899973344473165	/home/vijay/PX4-Autopilot/build/px4_sitl_default/src/modules/uxrce_dds_client/src/libmicroxrceddsclient_project-build/microcdr/src/microcdr-build/ucdr-prefix/src/ucdr-stamp/ucdr-update	4d95784bb038dee7
+200	228	1725899973374473165	ucdr-prefix/src/ucdr-stamp/ucdr-patch	4daab1a6b96adaff
+1	307	1725899973564473167	CMakeFiles/microcdr.dir/src/c/types/string.c.o	61e2843f89ae4875
+0	620	1725899973634473168	CMakeFiles/microcdr.dir/src/c/common.c.o	aad8fe2e7769cf24
+7	714	1725899973704473168	CMakeFiles/microcdr.dir/src/c/types/sequence.c.o	ea3186996f613a1a
+6	717	1725899973844473170	CMakeFiles/microcdr.dir/src/c/types/array.c.o	a161184f38dfadd6
+0	719	1725899973954473171	CMakeFiles/microcdr.dir/src/c/types/basic.c.o	78899bae57c8e93c
+720	734	1725899974204473173	libmicrocdr.a	fb717557b3b9583
+0	93	0	CMakeFiles/install.util	40ba0d4bbf4f6cf4

@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0088 mode_req_angular_velocity;\u0088 mode_req_attitude;\u0088 mode_req_local_alt;\u0088 mode_req_local_position;\u0088 mode_req_local_position_relaxed;\u0088 mode_req_global_position;\u0088 mode_req_mission;\u0088 mode_req_offboard_signal;\u0088 mode_req_home_position;\u0088 mode_req_wind_and_flight_time_compliance;\u0088 mode_req_prevent_arming;\u0088 mode_req_manual_control;\u0088 mode_req_other;\u008c angular_velocity_invalid;\u008c attitude_invalid;\u008c local_altitude_invalid;\u008c local_position_invalid;\u008c local_position_invalid_relaxed;\u008c local_velocity_invalid;\u008c global_position_invalid;\u008c auto_mission_missing;\u008c offboard_control_signal_lost;\u008c home_position_invalid;\u008c manual_control_signal_lost;\u008c gcs_connection_lost;\u0086 battery_warning;\u008c battery_low_remaining_time;\u008c battery_unhealthy;\u008c geofence_breached;\u008c mission_failure;\u008c vtol_fixed_wing_system_failure;\u008c wind_limit_exceeded;\u008c flight_time_limit_exceeded;\u008c local_position_accuracy_low;\u008c navigator_failure;\u008c fd_critical_failure;\u008c fd_esc_arming_failure;\u008c fd_imbalanced_prop;\u008c fd_motor_failure;\u0086[2] _padding0;",
+		"fields_total_length": 1185,
+		"orb_ids": [88],
+		"main_orb_id": 88,
+		"dependencies": [],
+		"name": "px4/FailsafeFlags"
+}

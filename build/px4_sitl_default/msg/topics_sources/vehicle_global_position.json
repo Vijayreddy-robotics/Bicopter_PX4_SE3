@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0089 timestamp_sample;\u008b lat;\u008b lon;\u008a alt;\u008a alt_ellipsoid;\u008a delta_alt;\u008a delta_terrain;\u008a eph;\u008a epv;\u008a terrain_alt;\u0086 lat_lon_reset_counter;\u0086 alt_reset_counter;\u0086 terrain_reset_counter;\u008c terrain_alt_valid;\u008c dead_reckoning;\u0086[7] _padding0;",
+		"fields_total_length": 321,
+		"orb_ids": [256, 257, 86, 69, 18],
+		"main_orb_id": 256,
+		"dependencies": [],
+		"name": "px4/VehicleGlobalPosition"
+}

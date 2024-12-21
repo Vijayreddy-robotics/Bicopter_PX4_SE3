@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0088 id;\u008a time_to_minimum_delta;\u008a altitude_minimum_delta;\u008a horizontal_minimum_delta;\u0086 src;\u0086 action;\u0086 threat_level;\u0086[5] _padding0;",
+		"fields_total_length": 188,
+		"orb_ids": [27],
+		"main_orb_id": 27,
+		"dependencies": [],
+		"name": "px4/CollisionReport"
+}

@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u008b lat;\u008b lon;\u008a alt;\u008a roll_offset;\u008a pitch_offset;\u008a yaw_offset;\u0086 mode;\u0086[7] _padding0;",
+		"fields_total_length": 139,
+		"orb_ids": [271],
+		"main_orb_id": 271,
+		"dependencies": [],
+		"name": "px4/VehicleRoi"
+}

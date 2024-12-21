@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0089 timestamp_sample;\u0088 device_id;\u008a bias;\u008a bias_var;\u008a innov;\u008a innov_var;\u008a innov_test_ratio;",
+		"fields_total_length": 141,
+		"orb_ids": [65, 70],
+		"main_orb_id": -1,
+		"dependencies": [],
+		"name": "px4/EstimatorBias"
+}

@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0088 sessionid;\u0088 time_offset;\u0088 counter;\u008a distance;\u008a aoa_azimuth_dev;\u008a aoa_elevation_dev;\u008a aoa_azimuth_resp;\u008a aoa_elevation_resp;\u008a offset_x;\u008a offset_y;\u008a offset_z;\u0087 mac;\u0087 mac_dest;\u0087 status;\u0086 nlos;\u0086 aoa_azimuth_fom;\u0086 aoa_elevation_fom;\u0086 aoa_dest_azimuth_fom;\u0086 aoa_dest_elevation_fom;\u0086 orientation;",
+		"fields_total_length": 420,
+		"orb_ids": [221],
+		"main_orb_id": 221,
+		"dependencies": [],
+		"name": "px4/SensorUwb"
+}

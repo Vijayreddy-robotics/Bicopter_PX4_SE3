@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0089 timestamp_sample;\u0088 switch_changes;\u0086 mode_slot;\u0086 arm_switch;\u0086 return_switch;\u0086 loiter_switch;\u0086 offboard_switch;\u0086 kill_switch;\u0086 gear_switch;\u0086 transition_switch;\u0086 photo_switch;\u0086 video_switch;\u0086 engage_main_motor_switch;\u0086[1] _padding0;",
+		"fields_total_length": 336,
+		"orb_ids": [138],
+		"main_orb_id": 138,
+		"dependencies": [],
+		"name": "px4/ManualControlSwitches"
+}

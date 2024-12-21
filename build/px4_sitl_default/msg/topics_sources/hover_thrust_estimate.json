@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0089 timestamp_sample;\u008a hover_thrust;\u008a hover_thrust_var;\u008a accel_innov;\u008a accel_innov_var;\u008a accel_innov_test_ratio;\u008a accel_noise_var;\u008c valid;\u0086[7] _padding0;",
+		"fields_total_length": 210,
+		"orb_ids": [121],
+		"main_orb_id": 121,
+		"dependencies": [],
+		"name": "px4/HoverThrustEstimate"
+}

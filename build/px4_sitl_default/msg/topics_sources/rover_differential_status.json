@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u008a actual_speed;\u008a actual_yaw_deg;\u008a actual_yaw_rate_deg_s;\u008a desired_yaw_rate_deg_s;\u008a pid_yaw_integral;\u008a pid_yaw_rate_integral;\u008a pid_throttle_integral;\u0086[4] _padding0;",
+		"fields_total_length": 216,
+		"orb_ids": [199],
+		"main_orb_id": 199,
+		"dependencies": [],
+		"name": "px4/RoverDifferentialStatus"
+}

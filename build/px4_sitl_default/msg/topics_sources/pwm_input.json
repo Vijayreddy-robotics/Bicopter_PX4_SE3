@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0089 error_count;\u0088 pulse_width;\u0088 period;",
+		"fields_total_length": 77,
+		"orb_ids": [185],
+		"main_orb_id": 185,
+		"dependencies": [],
+		"name": "px4/PwmInput"
+}

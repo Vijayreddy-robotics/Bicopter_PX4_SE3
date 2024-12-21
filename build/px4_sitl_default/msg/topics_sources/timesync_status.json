@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0089 remote_timestamp;\u0085 observed_offset;\u0085 estimated_offset;\u0088 round_trip_time;\u0086 source_protocol;\u0086[3] _padding0;",
+		"fields_total_length": 164,
+		"orb_ids": [232],
+		"main_orb_id": 232,
+		"dependencies": [],
+		"name": "px4/TimesyncStatus"
+}

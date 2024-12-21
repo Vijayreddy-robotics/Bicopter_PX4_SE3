@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0088 mission_id;\u0088 geofence_id;\u0088 home_position_counter;\u0084 seq_reached;\u0087 seq_current;\u0087 seq_total;\u0087 item_changed_index;\u0087 item_do_jump_remaining;\u008c valid;\u008c warning;\u008c finished;\u008c failure;\u008c item_do_jump_changed;\u0086 execution_mode;\u0086[2] _padding0;",
+		"fields_total_length": 332,
+		"orb_ids": [145],
+		"main_orb_id": 145,
+		"dependencies": [],
+		"name": "px4/MissionResult"
+}

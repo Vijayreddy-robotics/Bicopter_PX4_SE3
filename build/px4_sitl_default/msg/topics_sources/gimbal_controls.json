@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0089 timestamp_sample;\u008a[3] control;\u0086[4] _padding0;",
+		"fields_total_length": 83,
+		"orb_ids": [101],
+		"main_orb_id": 101,
+		"dependencies": [],
+		"name": "px4/GimbalControls"
+}

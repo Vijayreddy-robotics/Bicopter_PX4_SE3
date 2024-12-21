@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0089 timestamp_sample;\u0088 device_id;\u008a[3] magnetometer_ga;\u0086 calibration_count;\u0086[7] _padding0;",
+		"fields_total_length": 136,
+		"orb_ids": [265],
+		"main_orb_id": 265,
+		"dependencies": [],
+		"name": "px4/VehicleMagnetometer"
+}

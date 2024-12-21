@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0088 uptime;\u0088 ram_usage;\u0088 ram_total;\u0088[4] storage_type;\u0088[4] storage_usage;\u0088[4] storage_total;\u0088[6] link_type;\u0088[6] link_tx_rate;\u0088[6] link_rx_rate;\u0088[6] link_tx_max;\u0088[6] link_rx_max;\u0083[4] fan_speed;\u0086 type;\u0086[8] cpu_cores;\u0086[10] cpu_combined;\u0086[4] gpu_cores;\u0086[10] gpu_combined;\u0082 temperature_board;\u0082[8] temperature_core;\u0086[2] _padding0;",
+		"fields_total_length": 469,
+		"orb_ids": [154],
+		"main_orb_id": 154,
+		"dependencies": [],
+		"name": "px4/OnboardComputerStatus"
+}

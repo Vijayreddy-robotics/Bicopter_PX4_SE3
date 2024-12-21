@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0089 timestamp_sample;\u0088 device_id;\u008a[2] pixel_flow;\u008a[3] delta_angle;\u008a distance_m;\u0088 integration_timespan_us;\u0088 error_count;\u008a max_flow_rate;\u008a min_ground_distance;\u008a max_ground_distance;\u008c delta_angle_available;\u008c distance_available;\u0086 quality;\u0086 mode;\u0086[4] _padding0;",
+		"fields_total_length": 349,
+		"orb_ids": [218],
+		"main_orb_id": 218,
+		"dependencies": [],
+		"name": "px4/SensorOpticalFlow"
+}

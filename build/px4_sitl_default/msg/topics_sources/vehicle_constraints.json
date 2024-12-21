@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u008a speed_up;\u008a speed_down;\u008c want_takeoff;\u0086[7] _padding0;",
+		"fields_total_length": 90,
+		"orb_ids": [254],
+		"main_orb_id": 254,
+		"dependencies": [],
+		"name": "px4/VehicleConstraints"
+}

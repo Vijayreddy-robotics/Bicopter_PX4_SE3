@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0088 command;\u0084 result_param2;\u0087 target_component;\u0086 result;\u0086 result_param1;\u0086 target_system;\u008c from_external;\u0086[2] _padding0;",
+		"fields_total_length": 183,
+		"orb_ids": [252],
+		"main_orb_id": 252,
+		"dependencies": [],
+		"name": "px4/VehicleCommandAck"
+}

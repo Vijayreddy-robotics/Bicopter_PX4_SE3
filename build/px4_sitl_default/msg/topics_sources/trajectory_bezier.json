@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u008a[3] position;\u008a yaw;\u008a delta;\u0086[4] _padding0;",
+		"fields_total_length": 80,
+		"orb_ids": [233],
+		"main_orb_id": 233,
+		"dependencies": [],
+		"name": "px4/TrajectoryBezier"
+}

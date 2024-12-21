@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0088 device_id;\u008a temperature_sensor;\u008a temperature_target;\u0088 controller_period_usec;\u0088 controller_time_on_usec;\u008a proportional_value;\u008a integrator_value;\u008a feed_forward_value;\u008c heater_on;\u008c temperature_target_met;\u0086 mode;\u0086[5] _padding0;",
+		"fields_total_length": 303,
+		"orb_ids": [119],
+		"main_orb_id": 119,
+		"dependencies": [],
+		"name": "px4/HeaterStatus"
+}

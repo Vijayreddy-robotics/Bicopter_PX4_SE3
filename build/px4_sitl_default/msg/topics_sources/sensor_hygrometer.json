@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0089 timestamp_sample;\u0088 device_id;\u008a temperature;\u008a humidity;\u0086[4] _padding0;",
+		"fields_total_length": 118,
+		"orb_ids": [216],
+		"main_orb_id": 216,
+		"dependencies": [],
+		"name": "px4/SensorHygrometer"
+}

@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0086 severity;\u008d[127] text;",
+		"fields_total_length": 51,
+		"orb_ids": [132],
+		"main_orb_id": 132,
+		"dependencies": [],
+		"name": "px4/LogMessage"
+}

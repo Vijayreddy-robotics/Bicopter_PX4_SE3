@@ -1,0 +1,15 @@
+Validating /home/vijay/PX4-Autopilot/src/modules/mavlink/mavlink/message_definitions/v1.0/development.xml
+Parsing /home/vijay/PX4-Autopilot/src/modules/mavlink/mavlink/message_definitions/v1.0/development.xml
+Validating /home/vijay/PX4-Autopilot/src/modules/mavlink/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/vijay/PX4-Autopilot/src/modules/mavlink/mavlink/message_definitions/v1.0/common.xml
+Validating /home/vijay/PX4-Autopilot/src/modules/mavlink/mavlink/message_definitions/v1.0/standard.xml
+Parsing /home/vijay/PX4-Autopilot/src/modules/mavlink/mavlink/message_definitions/v1.0/standard.xml
+Validating /home/vijay/PX4-Autopilot/src/modules/mavlink/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/vijay/PX4-Autopilot/src/modules/mavlink/mavlink/message_definitions/v1.0/minimal.xml
+Merged enum MAV_CMD
+Found 240 MAVLink message types in 4 XML files
+Generating C implementation in directory /home/vijay/PX4-Autopilot/build/px4_sitl_default/mavlink/development
+Generating C implementation in directory /home/vijay/PX4-Autopilot/build/px4_sitl_default/mavlink/common
+Generating C implementation in directory /home/vijay/PX4-Autopilot/build/px4_sitl_default/mavlink/standard
+Generating C implementation in directory /home/vijay/PX4-Autopilot/build/px4_sitl_default/mavlink/minimal
+Copying fixed headers for protocol 2.0 to /home/vijay/PX4-Autopilot/build/px4_sitl_default/mavlink

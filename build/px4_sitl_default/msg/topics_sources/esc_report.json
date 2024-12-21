@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0088 esc_errorcount;\u0084 esc_rpm;\u008a esc_voltage;\u008a esc_current;\u008a esc_temperature;\u0087 failures;\u0086 esc_address;\u0086 esc_cmdcount;\u0086 esc_state;\u0086 actuator_function;\u0082 esc_power;\u0086[5] _padding0;",
+		"fields_total_length": 258,
+		"orb_ids": [42],
+		"main_orb_id": 42,
+		"dependencies": [],
+		"name": "px4/EscReport"
+}

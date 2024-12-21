@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0088 id;\u0087 event_sequence;\u0086[25] arguments;\u0086 log_levels;",
+		"fields_total_length": 96,
+		"orb_ids": [84],
+		"main_orb_id": 84,
+		"dependencies": [],
+		"name": "px4/Event"
+}

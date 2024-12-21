@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0082 command;\u0086[7] _padding0;",
+		"fields_total_length": 55,
+		"orb_ids": [117],
+		"main_orb_id": 117,
+		"dependencies": [],
+		"name": "px4/Gripper"
+}

@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0086 vehicle_vtol_state;\u008c fixed_wing_system_failure;\u0086[6] _padding0;",
+		"fields_total_length": 98,
+		"orb_ids": [285],
+		"main_orb_id": 285,
+		"dependencies": [],
+		"name": "px4/VtolVehicleStatus"
+}

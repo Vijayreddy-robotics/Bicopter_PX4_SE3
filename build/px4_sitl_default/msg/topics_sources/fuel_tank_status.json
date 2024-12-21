@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u008a maximum_fuel_capacity;\u008a consumed_fuel;\u008a fuel_consumption_rate;\u008a remaining_fuel;\u0088 fuel_type;\u008a temperature;\u0086 percent_remaining;\u0086 fuel_tank_id;\u0086[6] _padding0;",
+		"fields_total_length": 221,
+		"orb_ids": [96],
+		"main_orb_id": 96,
+		"dependencies": [],
+		"name": "px4/FuelTankStatus"
+}

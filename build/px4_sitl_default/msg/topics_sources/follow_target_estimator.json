@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0089 last_filter_reset_timestamp;\u008b lat_est;\u008b lon_est;\u0089 prediction_count;\u0089 fusion_count;\u008a alt_est;\u008a[3] pos_est;\u008a[3] vel_est;\u008a[3] acc_est;\u008c valid;\u008c stale;\u0086[6] _padding0;",
+		"fields_total_length": 242,
+		"orb_ids": [94],
+		"main_orb_id": 94,
+		"dependencies": [],
+		"name": "px4/FollowTargetEstimator"
+}

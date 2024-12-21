@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u008a tracked_target_course;\u008a follow_angle;\u008a orbit_angle_setpoint;\u008a angular_rate_setpoint;\u008a[3] desired_position_raw;\u008a gimbal_pitch;\u008c in_emergency_ascent;\u0086[7] _padding0;",
+		"fields_total_length": 216,
+		"orb_ids": [95],
+		"main_orb_id": 95,
+		"dependencies": [],
+		"name": "px4/FollowTargetStatus"
+}

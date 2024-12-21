@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u008a latitude;\u008a longitude;\u008a time_inside;\u008a acceptance_radius;\u008a loiter_radius;\u008a yaw;\u008a altitude;\u0087 sequence_current;\u0087 nav_cmd;\u0086 frame;\u0086 origin;\u008c loiter_exit_xtrack;\u008c force_heading;\u008c altitude_is_relative;\u008c autocontinue;\u008c vtol_back_transition;\u0086[1] _padding0;",
+		"fields_total_length": 343,
+		"orb_ids": [148],
+		"main_orb_id": 148,
+		"dependencies": [],
+		"name": "px4/NavigatorMissionItem"
+}

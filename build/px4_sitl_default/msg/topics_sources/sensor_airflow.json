@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0088 device_id;\u008a speed;\u008a direction;\u0086 status;\u0086[3] _padding0;",
+		"fields_total_length": 102,
+		"orb_ids": [207],
+		"main_orb_id": 207,
+		"dependencies": [],
+		"name": "px4/SensorAirflow"
+}

@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0086 led_mask;\u0086 color;\u0086 mode;\u0086 num_blinks;\u0086 priority;\u0086[3] _padding0;",
+		"fields_total_length": 120,
+		"orb_ids": [131],
+		"main_orb_id": 131,
+		"dependencies": [],
+		"name": "px4/LedControl"
+}

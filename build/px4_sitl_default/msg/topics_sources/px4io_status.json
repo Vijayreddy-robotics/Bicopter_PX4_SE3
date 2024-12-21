@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u008a voltage_v;\u008a rssi_v;\u0087 free_memory_bytes;\u0087[8] pwm;\u0087[8] pwm_disarmed;\u0087[8] pwm_failsafe;\u0087[8] pwm_rate_hz;\u0087[18] raw_inputs;\u008c status_arm_sync;\u008c status_failsafe;\u008c status_fmu_initialized;\u008c status_fmu_ok;\u008c status_init_ok;\u008c status_outputs_armed;\u008c status_raw_pwm;\u008c status_rc_ok;\u008c status_rc_dsm;\u008c status_rc_ppm;\u008c status_rc_sbus;\u008c status_rc_st24;\u008c status_rc_sumd;\u008c status_safety_button_event;\u008c alarm_pwm_error;\u008c alarm_rc_lost;\u008c arming_failsafe_custom;\u008c arming_fmu_armed;\u008c arming_fmu_prearmed;\u008c arming_force_failsafe;\u008c arming_io_arm_ok;\u008c arming_lockdown;\u008c arming_termination_failsafe;\u0086[3] _padding0;",
+		"fields_total_length": 731,
+		"orb_ids": [186],
+		"main_orb_id": 186,
+		"dependencies": [],
+		"name": "px4/Px4ioStatus"
+}

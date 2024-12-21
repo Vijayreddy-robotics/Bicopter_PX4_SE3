@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u008c freefall;\u008c ground_contact;\u008c maybe_landed;\u008c landed;\u008c in_ground_effect;\u008c in_descend;\u008c has_low_throttle;\u008c vertical_movement;\u008c horizontal_movement;\u008c rotational_movement;\u008c close_to_ground_or_skipped_check;\u008c at_rest;\u0086[4] _padding0;",
+		"fields_total_length": 288,
+		"orb_ids": [261],
+		"main_orb_id": 261,
+		"dependencies": [],
+		"name": "px4/VehicleLandDetected"
+}

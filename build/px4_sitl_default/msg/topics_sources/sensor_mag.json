@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0089 timestamp_sample;\u0088 device_id;\u008a x;\u008a y;\u008a z;\u008a temperature;\u0088 error_count;",
+		"fields_total_length": 127,
+		"orb_ids": [217],
+		"main_orb_id": 217,
+		"dependencies": [],
+		"name": "px4/SensorMag"
+}

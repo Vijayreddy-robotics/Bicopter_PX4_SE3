@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0086 action;\u0086 source;\u0086 mode;\u0086[5] _padding0;",
+		"fields_total_length": 83,
+		"orb_ids": [0],
+		"main_orb_id": 0,
+		"dependencies": [],
+		"name": "px4/ActionRequest"
+}

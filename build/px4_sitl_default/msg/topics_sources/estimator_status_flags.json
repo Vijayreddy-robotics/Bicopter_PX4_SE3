@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0089 timestamp_sample;\u0088 control_status_changes;\u0088 fault_status_changes;\u0088 innovation_fault_status_changes;\u008c cs_tilt_align;\u008c cs_yaw_align;\u008c cs_gps;\u008c cs_opt_flow;\u008c cs_mag_hdg;\u008c cs_mag_3d;\u008c cs_mag_dec;\u008c cs_in_air;\u008c cs_wind;\u008c cs_baro_hgt;\u008c cs_rng_hgt;\u008c cs_gps_hgt;\u008c cs_ev_pos;\u008c cs_ev_yaw;\u008c cs_ev_hgt;\u008c cs_fuse_beta;\u008c cs_mag_field_disturbed;\u008c cs_fixed_wing;\u008c cs_mag_fault;\u008c cs_fuse_aspd;\u008c cs_gnd_effect;\u008c cs_rng_stuck;\u008c cs_gnss_yaw;\u008c cs_mag_aligned_in_flight;\u008c cs_ev_vel;\u008c cs_synthetic_mag_z;\u008c cs_vehicle_at_rest;\u008c cs_gnss_yaw_fault;\u008c cs_rng_fault;\u008c cs_inertial_dead_reckoning;\u008c cs_wind_dead_reckoning;\u008c cs_rng_kin_consistent;\u008c cs_fake_pos;\u008c cs_fake_hgt;\u008c cs_gravity_vector;\u008c cs_mag;\u008c cs_ev_yaw_fault;\u008c cs_mag_heading_consistent;\u008c cs_aux_gpos;\u008c cs_rng_terrain;\u008c cs_opt_flow_terrain;\u008c cs_valid_fake_pos;\u008c cs_constant_pos;\u008c fs_bad_mag_x;\u008c fs_bad_mag_y;\u008c fs_bad_mag_z;\u008c fs_bad_hdg;\u008c fs_bad_mag_decl;\u008c fs_bad_airspeed;\u008c fs_bad_sideslip;\u008c fs_bad_optflow_x;\u008c fs_bad_optflow_y;\u008c fs_bad_acc_vertical;\u008c fs_bad_acc_clipping;\u008c reject_hor_vel;\u008c reject_ver_vel;\u008c reject_hor_pos;\u008c reject_ver_pos;\u008c reject_yaw;\u008c reject_airspeed;\u008c reject_sideslip;\u008c reject_hagl;\u008c reject_optflow_x;\u008c reject_optflow_y;\u0086[4] _padding0;",
+		"fields_total_length": 1433,
+		"orb_ids": [82],
+		"main_orb_id": 82,
+		"dependencies": [],
+		"name": "px4/EstimatorStatusFlags"
+}

@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0089 timestamp_sample;\u008a[3] position;\u008a[4] q;\u008a[3] velocity;\u008a[3] angular_velocity;\u008a[3] position_variance;\u008a[3] orientation_variance;\u008a[3] velocity_variance;\u0086 pose_frame;\u0086 velocity_frame;\u0086 reset_counter;\u0082 quality;\u0086[4] _padding0;",
+		"fields_total_length": 302,
+		"orb_ids": [267, 266, 282, 76],
+		"main_orb_id": 267,
+		"dependencies": [],
+		"name": "px4/VehicleOdometry"
+}

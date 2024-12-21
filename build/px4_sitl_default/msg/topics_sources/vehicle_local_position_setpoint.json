@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u008a x;\u008a y;\u008a z;\u008a vx;\u008a vy;\u008a vz;\u008a[3] acceleration;\u008a[3] thrust;\u008a yaw;\u008a yawspeed;",
+		"fields_total_length": 133,
+		"orb_ids": [264],
+		"main_orb_id": 264,
+		"dependencies": [],
+		"name": "px4/VehicleLocalPositionSetpoint"
+}

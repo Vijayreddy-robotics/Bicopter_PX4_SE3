@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0089 timestamp_sample;\u008a roll;\u008a pitch;\u008a yaw;\u008a throttle;\u008a flaps;\u008a aux1;\u008a aux2;\u008a aux3;\u008a aux4;\u008a aux5;\u008a aux6;\u0087 buttons;\u008c valid;\u0086 data_source;\u008c sticks_moving;\u0086[7] _padding0;",
+		"fields_total_length": 259,
+		"orb_ids": [137, 136],
+		"main_orb_id": 137,
+		"dependencies": [],
+		"name": "px4/ManualControlSetpoint"
+}

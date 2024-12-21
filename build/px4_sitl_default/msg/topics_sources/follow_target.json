@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u008b lat;\u008b lon;\u008a alt;\u008a vy;\u008a vx;\u008a vz;\u0086 est_cap;\u0086[7] _padding0;",
+		"fields_total_length": 115,
+		"orb_ids": [93],
+		"main_orb_id": 93,
+		"dependencies": [],
+		"name": "px4/FollowTarget"
+}

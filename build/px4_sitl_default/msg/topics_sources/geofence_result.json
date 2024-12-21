@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u008c geofence_max_dist_triggered;\u008c geofence_max_alt_triggered;\u008c geofence_custom_fence_triggered;\u0086 geofence_action;\u0086[4] _padding0;",
+		"fields_total_length": 166,
+		"orb_ids": [99],
+		"main_orb_id": 99,
+		"dependencies": [],
+		"name": "px4/GeofenceResult"
+}

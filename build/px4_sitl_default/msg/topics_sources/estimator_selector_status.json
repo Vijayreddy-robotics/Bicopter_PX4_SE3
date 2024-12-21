@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0089 last_instance_change;\u0088 instance_changed_count;\u0088 accel_device_id;\u0088 baro_device_id;\u0088 gyro_device_id;\u0088 mag_device_id;\u008a[9] combined_test_ratio;\u008a[9] relative_test_ratio;\u008a[4] accumulated_gyro_error;\u008a[4] accumulated_accel_error;\u0086 primary_instance;\u0086 instances_available;\u008c[9] healthy;\u008c gyro_fault_detected;\u008c accel_fault_detected;\u0086[7] _padding0;",
+		"fields_total_length": 441,
+		"orb_ids": [78],
+		"main_orb_id": 78,
+		"dependencies": [],
+		"name": "px4/EstimatorSelectorStatus"
+}

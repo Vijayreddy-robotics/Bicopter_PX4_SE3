@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u008a time_estimate;\u008a safe_time_estimate;\u008c valid;\u0086[7] _padding0;",
+		"fields_total_length": 96,
+		"orb_ids": [202],
+		"main_orb_id": 202,
+		"dependencies": [],
+		"name": "px4/RtlTimeEstimate"
+}

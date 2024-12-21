@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u008a x_rel;\u008a y_rel;\u008a z_rel;\u008a vx_rel;\u008a vy_rel;\u008a cov_x_rel;\u008a cov_y_rel;\u008a cov_vx_rel;\u008a cov_vy_rel;\u008a x_abs;\u008a y_abs;\u008a z_abs;\u008c is_static;\u008c rel_pos_valid;\u008c rel_vel_valid;\u008c abs_pos_valid;\u0086[4] _padding0;",
+		"fields_total_length": 276,
+		"orb_ids": [129],
+		"main_orb_id": 129,
+		"dependencies": [],
+		"name": "px4/LandingTargetPose"
+}

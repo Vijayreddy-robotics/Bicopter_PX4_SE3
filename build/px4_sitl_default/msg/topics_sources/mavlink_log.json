@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u008d[127] text;\u0086 severity;",
+		"fields_total_length": 51,
+		"orb_ids": [139],
+		"main_orb_id": 139,
+		"dependencies": [],
+		"name": "px4/MavlinkLog"
+}

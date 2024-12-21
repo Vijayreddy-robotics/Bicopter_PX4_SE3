@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0086 active_sys_id;\u0086 active_comp_id;\u0086[6] _padding0;",
+		"fields_total_length": 85,
+		"orb_ids": [22],
+		"main_orb_id": 22,
+		"dependencies": [],
+		"name": "px4/CameraStatus"
+}

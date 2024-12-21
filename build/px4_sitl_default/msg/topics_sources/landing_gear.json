@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0082 landing_gear;\u0086[7] _padding0;",
+		"fields_total_length": 60,
+		"orb_ids": [126],
+		"main_orb_id": 126,
+		"dependencies": [],
+		"name": "px4/LandingGear"
+}

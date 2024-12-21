@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u008a pos_x;\u008a pos_y;\u008a size_x;\u008a size_y;\u0087 signature;\u0086[6] _padding0;",
+		"fields_total_length": 109,
+		"orb_ids": [125],
+		"main_orb_id": 125,
+		"dependencies": [],
+		"name": "px4/IrlockReport"
+}

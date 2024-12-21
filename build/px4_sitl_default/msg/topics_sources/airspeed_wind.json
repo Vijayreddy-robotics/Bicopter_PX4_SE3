@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0089 timestamp_sample;\u008a windspeed_north;\u008a windspeed_east;\u008a variance_north;\u008a variance_east;\u008a tas_innov;\u008a tas_innov_var;\u008a tas_scale_raw;\u008a tas_scale_raw_var;\u008a tas_scale_validated;\u008a beta_innov;\u008a beta_innov_var;\u0086 source;\u0086[3] _padding0;",
+		"fields_total_length": 309,
+		"orb_ids": [14],
+		"main_orb_id": 14,
+		"dependencies": [],
+		"name": "px4/AirspeedWind"
+}

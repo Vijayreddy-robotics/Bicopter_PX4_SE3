@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0088 device_id;\u0088 mask;\u0088 state;\u0086[4] _padding0;",
+		"fields_total_length": 88,
+		"orb_ids": [113],
+		"main_orb_id": 113,
+		"dependencies": [],
+		"name": "px4/GpioOut"
+}

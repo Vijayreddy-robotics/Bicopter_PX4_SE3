@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u008a[4] q;\u008a angular_velocity_x;\u008a angular_velocity_y;\u008a angular_velocity_z;\u0087 flags;\u0086 target_system;\u0086 target_component;",
+		"fields_total_length": 167,
+		"orb_ids": [104],
+		"main_orb_id": 104,
+		"dependencies": [],
+		"name": "px4/GimbalDeviceSetAttitude"
+}

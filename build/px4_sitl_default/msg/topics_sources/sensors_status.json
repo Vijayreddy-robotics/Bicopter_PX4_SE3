@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0088 device_id_primary;\u0088[4] device_ids;\u008a[4] inconsistency;\u008c[4] healthy;\u0086[4] priority;\u008c[4] enabled;\u008c[4] external;\u0086[4] _padding0;",
+		"fields_total_length": 182,
+		"orb_ids": [222, 224],
+		"main_orb_id": -1,
+		"dependencies": [],
+		"name": "px4/SensorsStatus"
+}

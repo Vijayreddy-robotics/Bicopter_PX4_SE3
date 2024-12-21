@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0089 io_errors;\u0089 frames_tx;\u0089 frames_rx;\u0086 interface;\u0086[7] _padding0;",
+		"fields_total_length": 115,
+		"orb_ids": [24],
+		"main_orb_id": 24,
+		"dependencies": [],
+		"name": "px4/CanInterfaceStatus"
+}

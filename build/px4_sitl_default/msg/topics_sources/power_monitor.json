@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u008a voltage_v;\u008a current_a;\u008a power_w;\u0083 rconf;\u0083 rsv;\u0083 rbv;\u0083 rp;\u0083 rc;\u0083 rcal;\u0083 me;\u0083 al;\u0086[4] _padding0;",
+		"fields_total_length": 181,
+		"orb_ids": [183],
+		"main_orb_id": 183,
+		"dependencies": [],
+		"name": "px4/PowerMonitor"
+}

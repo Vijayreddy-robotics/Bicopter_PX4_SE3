@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0089 timestamp_sample;\u008a position_drift_rate_horizontal_m_s;\u008a position_drift_rate_vertical_m_s;\u008a filtered_horizontal_speed_m_s;\u008c checks_passed;\u008c check_fail_gps_fix;\u008c check_fail_min_sat_count;\u008c check_fail_max_pdop;\u008c check_fail_max_horz_err;\u008c check_fail_max_vert_err;\u008c check_fail_max_spd_err;\u008c check_fail_max_horz_drift;\u008c check_fail_max_vert_drift;\u008c check_fail_max_horz_spd_err;\u008c check_fail_max_vert_spd_err;\u008c check_fail_spoofed_gps;",
+		"fields_total_length": 501,
+		"orb_ids": [71],
+		"main_orb_id": 71,
+		"dependencies": [],
+		"name": "px4/EstimatorGpsStatus"
+}

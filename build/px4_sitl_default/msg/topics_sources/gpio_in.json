@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0088 device_id;\u0088 state;",
+		"fields_total_length": 53,
+		"orb_ids": [112],
+		"main_orb_id": 112,
+		"dependencies": [],
+		"name": "px4/GpioIn"
+}

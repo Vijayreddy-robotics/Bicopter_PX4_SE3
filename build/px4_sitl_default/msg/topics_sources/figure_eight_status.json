@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u008a major_radius;\u008a minor_radius;\u008a orientation;\u0084 x;\u0084 y;\u008a z;\u0086 frame;\u0086[7] _padding0;",
+		"fields_total_length": 138,
+		"orb_ids": [90],
+		"main_orb_id": 90,
+		"dependencies": [],
+		"name": "px4/FigureEightStatus"
+}

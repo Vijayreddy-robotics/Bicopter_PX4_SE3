@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0089 timestamp_last_valid;\u008a[18] channels;\u0088 frame_drop_count;\u0086 channel_count;\u0082[28] function;\u0086 rssi;\u008c signal_lost;\u0086[5] _padding0;",
+		"fields_total_length": 187,
+		"orb_ids": [191],
+		"main_orb_id": 191,
+		"dependencies": [],
+		"name": "px4/RcChannels"
+}

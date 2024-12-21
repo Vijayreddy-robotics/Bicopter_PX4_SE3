@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u008c position;\u008c velocity;\u008c acceleration;\u008c attitude;\u008c body_rate;\u008c thrust_and_torque;\u008c direct_actuator;\u0086[1] _padding0;",
+		"fields_total_length": 159,
+		"orb_ids": [153],
+		"main_orb_id": 153,
+		"dependencies": [],
+		"name": "px4/OffboardControlMode"
+}

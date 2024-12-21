@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0084[3] param_index;\u008a[3] scale;\u008a[3] value0;\u008a[3] value_min;\u008a[3] value_max;\u008c[3] valid;\u008d[51] param_id;\u0086[6] _padding0;",
+		"fields_total_length": 164,
+		"orb_ids": [192],
+		"main_orb_id": 192,
+		"dependencies": [],
+		"name": "px4/RcParameterMap"
+}

@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u008a[3] gyro_rad;\u0088 gyro_integral_dt;\u0084 accelerometer_timestamp_relative;\u008a[3] accelerometer_m_s2;\u0088 accelerometer_integral_dt;\u0086 accelerometer_clipping;\u0086 gyro_clipping;\u0086 accel_calibration_count;\u0086 gyro_calibration_count;",
+		"fields_total_length": 283,
+		"orb_ids": [209],
+		"main_orb_id": 209,
+		"dependencies": [],
+		"name": "px4/SensorCombined"
+}

@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u008a[3] position;\u008a[3] velocity;\u008a[3] acceleration;\u008a[3] jerk;\u008a yaw;\u008a yawspeed;",
+		"fields_total_length": 116,
+		"orb_ids": [234],
+		"main_orb_id": 234,
+		"dependencies": [],
+		"name": "px4/TrajectorySetpoint"
+}

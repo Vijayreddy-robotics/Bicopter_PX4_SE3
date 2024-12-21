@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0089 timestamp_sample;\u0089 control_mode_flags;\u008a[3] output_tracking_error;\u0088 filter_fault_flags;\u008a pos_horiz_accuracy;\u008a pos_vert_accuracy;\u008a hdg_test_ratio;\u008a vel_test_ratio;\u008a pos_test_ratio;\u008a hgt_test_ratio;\u008a tas_test_ratio;\u008a hagl_test_ratio;\u008a beta_test_ratio;\u008a time_slip;\u0088 accel_device_id;\u0088 gyro_device_id;\u0088 baro_device_id;\u0088 mag_device_id;\u008a mag_inclination_deg;\u008a mag_inclination_ref_deg;\u008a mag_strength_gs;\u008a mag_strength_ref_gs;\u0087 gps_check_fail_flags;\u0087 solution_status_flags;\u0086 reset_count_vel_ne;\u0086 reset_count_vel_d;\u0086 reset_count_pos_ne;\u0086 reset_count_pod_d;\u0086 reset_count_quat;\u008c pre_flt_fail_innov_heading;\u008c pre_flt_fail_innov_height;\u008c pre_flt_fail_innov_pos_horiz;\u008c pre_flt_fail_innov_vel_horiz;\u008c pre_flt_fail_innov_vel_vert;\u008c pre_flt_fail_mag_field_disturbed;\u0086 health_flags;\u0086 timeout_flags;\u0086[7] _padding0;",
+		"fields_total_length": 1004,
+		"orb_ids": [81],
+		"main_orb_id": 81,
+		"dependencies": [],
+		"name": "px4/EstimatorStatus"
+}

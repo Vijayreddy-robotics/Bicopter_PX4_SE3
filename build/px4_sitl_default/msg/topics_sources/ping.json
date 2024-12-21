@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0089 ping_time;\u0088 ping_sequence;\u0088 dropped_packets;\u008a rtt_ms;\u0086 system_id;\u0086 component_id;\u0086[2] _padding0;",
+		"fields_total_length": 159,
+		"orb_ids": [177],
+		"main_orb_id": 177,
+		"dependencies": [],
+		"name": "px4/Ping"
+}

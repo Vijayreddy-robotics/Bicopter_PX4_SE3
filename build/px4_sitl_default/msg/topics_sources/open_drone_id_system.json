@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u0084 operator_latitude;\u0084 operator_longitude;\u008a area_ceiling;\u008a area_floor;\u008a operator_altitude_geo;\u0087 area_count;\u0087 area_radius;\u0086[20] id_or_mac;\u0086 operator_location_type;\u0086 classification_type;\u0086 category_eu;\u0086 class_eu;",
+		"fields_total_length": 295,
+		"orb_ids": [158],
+		"main_orb_id": 158,
+		"dependencies": [],
+		"name": "px4/OpenDroneIdSystem"
+}
