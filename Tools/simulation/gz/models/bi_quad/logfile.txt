@@ -1,0 +1,34 @@
+Body: base
+COM: base 19.93142586531725 0.07662019443860381 0.7308524084885006
+exporting stl of base
+link EXPORT_base:1
+inertia local frame: (542.0753138479871, 38.73422747252596, 520.5338074297329, 1.177924686405842, 0.5313259938331418, 0.06837947817375323)
+inertia world frame [543.1297354922033, 815.4605987260927, 1296.2286828265724, -1.8039499817886941, 0.4219855834788053, -28.374647833733146]
+Body: left_tilt
+COM: left_tilt 19.70802016271777 20.867943375924966 9.03633202468961
+exporting stl of left_tilt
+link EXPORT_left_tilt:1
+inertia local frame: (0.45995695070796216, 0.3055340095657755, 0.27747241743645645, 0.00034183955813915645, -0.004072897203190706, 0.013992897841678342)
+inertia world frame [58.26550648298219, 52.85005155836033, 92.37231340768301, -45.971881511851564, -21.082814987308698, -19.89310894889762]
+Body: right_tilt
+COM: right_tilt 19.88358901875466 -20.757372230526244 9.038961426123086
+exporting stl of right_tilt
+link EXPORT_right_tilt:1
+inertia local frame: (0.4605310565699767, 0.3053377688306753, 0.27648072299791693, 1.4271970499635245e-05, -0.0004153988905954975, 0.006437483614664785)
+inertia world frame [57.75690888958471, 53.632172443233486, 92.63384174399866, 46.13602206923061, 20.972739620628452, -20.08385093070914]
+Joint: EXPORT_left_joint
+	parent: base
+	child: left_tilt
+	pos: 0.16285265354841272	-2.131294876005583	-2.6363320246896196
+Joint: EXPORT_right_joint
+	parent: base
+	child: right_tilt
+	pos: 0.10467769884695954	-2.103221482862814	-2.638961426123112
+Joint: EXPORT_left_prop_joint
+	ERROR writing joint EXPORT_left_prop_joint, check your rigid EXPORT groups, the parent/child link must be part of a rigid Export group!
+Joint: EXPORT_right_prop_joint
+	ERROR writing joint EXPORT_right_prop_joint, check your rigid EXPORT groups, the parent/child link must be part of a rigid Export group!
+Joint: EXPORT_bottom_left_prop_joint
+	ERROR writing joint EXPORT_bottom_left_prop_joint, check your rigid EXPORT groups, the parent/child link must be part of a rigid Export group!
+Joint: EXPORT_bottom_right_prop_joint
+	ERROR writing joint EXPORT_bottom_right_prop_joint, check your rigid EXPORT groups, the parent/child link must be part of a rigid Export group!

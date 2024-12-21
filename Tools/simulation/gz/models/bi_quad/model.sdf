@@ -1,0 +1,620 @@
+	<?xml version="1.0" ?>
+	<sdf version="1.6">
+		<model name="bi_quad">
+			<link name="base">
+				<self_collide>false</self_collide>
+				<pose>0.1993142586531725 0.0007662019443860381 0.007308524084885006 0.0 -0.0 0.0</pose>
+				<inertial>
+					<pose>0.0 0.0 0.0 0 0 0</pose>
+					<mass>1.9525751921458985</mass>
+					<inertia>
+						<ixx>0.05420753138479871</ixx>
+						<ixy>0.0001177924686405842</ixy>
+						<ixz>6.837947817375323e-06</ixz>
+						<iyy>0.0038734227472525962</iyy>
+						<iyz>5.313259938331419e-05</iyz>
+						<izz>0.05205338074297329</izz>
+					</inertia>
+				</inertial>
+				<collision name="base_collision">
+					<geometry>
+						<mesh>
+							<uri>model://bi_quad/meshes/CAD/base.stl</uri>
+							<scale>0.001 0.001 0.001</scale>
+						</mesh>
+					</geometry>
+				</collision>
+				<visual name="base_visual">
+					<geometry>
+						<mesh>
+							<uri>model://bi_quad/meshes/CAD/base.stl</uri>
+							<scale>0.001 0.001 0.001</scale>
+						</mesh>
+					</geometry>
+					<material>
+						<ambient>.175 .175 .175 1.0</ambient>
+						<diffuse>.175 .175 .175 1.0</diffuse>
+					</material>
+				</visual>
+				<gravity>true</gravity>
+	<velocity_decay/>
+	<self_collide>0</self_collide>
+		<sensor name="imu_sensor" type="imu">
+			<always_on>1</always_on>
+			<update_rate>250</update_rate>
+			<imu>
+			<angular_velocity>
+			<x>
+			<noise type="gaussian">
+				<mean>0</mean>
+				<stddev>0.0003394</stddev>
+				<dynamic_bias_stddev>3.8785e-05</dynamic_bias_stddev>
+				<dynamic_bias_correlation_time>1000</dynamic_bias_correlation_time>
+			</noise>
+			</x>
+			<y>
+			<noise type="gaussian">
+				<mean>0</mean>
+				<stddev>0.0003394</stddev>
+				<dynamic_bias_stddev>3.8785e-05</dynamic_bias_stddev>
+				<dynamic_bias_correlation_time>1000</dynamic_bias_correlation_time>
+			</noise>
+			</y>
+			<z>
+			<noise type="gaussian">
+				<mean>0</mean>
+				<stddev>0.0003394</stddev>
+				<dynamic_bias_stddev>3.8785e-05</dynamic_bias_stddev>
+				<dynamic_bias_correlation_time>1000</dynamic_bias_correlation_time>
+			</noise>
+			</z>
+			</angular_velocity>
+			<linear_acceleration>
+			<x>
+			<noise type="gaussian">
+				<mean>0</mean>
+				<stddev>0.004</stddev>
+				<dynamic_bias_stddev>0.006</dynamic_bias_stddev>
+				<dynamic_bias_correlation_time>300</dynamic_bias_correlation_time>
+			</noise>
+			</x>
+			<y>
+			<noise type="gaussian">
+				<mean>0</mean>
+				<stddev>0.004</stddev>
+				<dynamic_bias_stddev>0.006</dynamic_bias_stddev>
+				<dynamic_bias_correlation_time>300</dynamic_bias_correlation_time>
+			</noise>
+			</y>
+			<z>
+			<noise type="gaussian">
+				<mean>0</mean>
+				<stddev>0.004</stddev>
+				<dynamic_bias_stddev>0.006</dynamic_bias_stddev>
+				<dynamic_bias_correlation_time>300</dynamic_bias_correlation_time>
+			</noise>
+			</z>
+			</linear_acceleration>
+			</imu>
+		</sensor>
+		<sensor name="air_pressure_sensor" type="air_pressure">
+			<always_on>1</always_on>
+			<update_rate>50</update_rate>
+			<air_pressure>
+			<pressure>
+			<noise type="gaussian">
+			<mean>0</mean>
+			<stddev>0.01</stddev>
+			</noise>
+			</pressure>
+			</air_pressure>
+		</sensor>
+		<sensor name="navsat_sensor" type="navsat">
+			<always_on>1</always_on>
+			<update_rate>30</update_rate>
+		</sensor>
+			</link>
+
+	<link name='prop1'>
+	<pose>0.1970802016271777 0.210 0.11893393233816349 0.0 -0.0 0.0</pose>
+	<inertial>
+		<mass>0.016076923076923075</mass>
+		<inertia>
+		<ixx>3.8464910483993325e-07</ixx>
+		<iyy>2.6115851691700804e-05</iyy>
+		<izz>2.649858234714004e-05</izz>
+		<!--
+		<ixx>1.1640630462295576e-06</ixx>
+		<ixy>2.971662205222684e-06</ixy>
+		<ixz>3.158489697341338e-10</ixz>
+		<iyy>0.00013504642125216257</iyy>
+		<iyz>8.988965734821677e-12</iyz>
+		<izz>0.00013608623002594824</izz>
+		-->
+		</inertia>
+	</inertial>
+	<collision name='prop1_collision'>
+		<geometry>
+		<cylinder>
+		<length>0.005</length>
+		<radius>0.1</radius>
+		</cylinder>
+		</geometry>
+		<surface>
+		<contact>
+		<ode/>
+		</contact>
+		<friction>
+		<ode/>
+		</friction>
+		</surface>
+	</collision>
+	<visual name='prop1_visual'>
+		<geometry>
+		<mesh>
+		<scale>0.001 0.001 0.001</scale>
+		<uri>model://bi_quad/meshes/CAD/Prop1.stl</uri>
+		</mesh>
+		</geometry>
+		<material>
+		<ambient>0 0 1 1.0</ambient>
+		<diffuse>0 0 1 1.0</diffuse>
+		</material>
+	</visual>
+	<gravity>true</gravity>
+	<velocity_decay/>
+	<self_collide>0</self_collide>
+	</link>
+	<joint name='prop1_joint' type='revolute'>
+	<child>prop1</child>
+	<parent>left_tilt</parent>
+	<pose>-7.662759549274465e-08 -2.2088590501567753e-06 0.0011497181763331988 0 0 0</pose>
+	<axis>
+		<xyz>0 0 1</xyz>
+		<limit>
+		<lower>-1e+16</lower>
+		<upper>1e+16</upper>
+		</limit>
+		<dynamics>
+		<spring_reference>0</spring_reference>
+		<spring_stiffness>0</spring_stiffness>
+		</dynamics>
+	</axis>
+	</joint>
+
+	<link name='prop2'>
+      <pose>0.1970802016271777 -0.210 0.11893393233816349 0.0 -0.0 0.0</pose>
+      <inertial>
+        <mass>0.016076923076923075</mass>
+        <inertia>
+          <ixx>3.8464910483993325e-07</ixx>
+          <iyy>2.6115851691700804e-05</iyy>
+          <izz>2.649858234714004e-05</izz>
+        <!--
+          <ixx>1.1640630462295576e-06</ixx>
+          <ixy>2.971662205222684e-06</ixy>
+          <ixz>3.158489697341338e-10</ixz>
+          <iyy>0.00013504642125216257</iyy>
+          <iyz>8.988965734821677e-12</iyz>
+          <izz>0.00013608623002594824</izz>
+          -->
+        </inertia>
+      </inertial>
+      <collision name='prop2_collision'>
+        <geometry>
+          <cylinder>
+            <length>0.005</length>
+            <radius>0.1</radius>
+          </cylinder>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode/>
+          </friction>
+        </surface>
+      </collision>
+      <visual name='prop2_visual'>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bi_quad/meshes/CAD/Prop2.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0 0 1 1.0</ambient>
+          <diffuse>0 0 1 1.0</diffuse>
+        </material>
+      </visual>
+      <gravity>true</gravity>
+      <velocity_decay/>
+      <self_collide>0</self_collide>
+    </link>
+    <joint name='prop2_joint' type='revolute'>
+      <child>prop2</child>
+      <parent>right_tilt</parent>
+      <pose>0.0018565808764078734 0.00021386973639528517 -0.00011891615606227482 0 0 0</pose>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+
+    <link name='prop3'>
+	<pose>0.1970802016271777 0.210 -0.06 0.0 -0.0 0.0</pose>
+	<inertial>
+		<mass>0.016076923076923075</mass>
+		<inertia>
+		<ixx>3.8464910483993325e-07</ixx>
+		<iyy>2.6115851691700804e-05</iyy>
+		<izz>2.649858234714004e-05</izz>
+		<!--
+		<ixx>1.1640630462295576e-06</ixx>
+		<ixy>2.971662205222684e-06</ixy>
+		<ixz>3.158489697341338e-10</ixz>
+		<iyy>0.00013504642125216257</iyy>
+		<iyz>8.988965734821677e-12</iyz>
+		<izz>0.00013608623002594824</izz>
+		-->
+		</inertia>
+	</inertial>
+	<collision name='prop3_collision'>
+		<geometry>
+		<cylinder>
+		<length>0.005</length>
+		<radius>0.1</radius>
+		</cylinder>
+		</geometry>
+		<surface>
+		<contact>
+		<ode/>
+		</contact>
+		<friction>
+		<ode/>
+		</friction>
+		</surface>
+	</collision>
+	<visual name='prop3_visual'>
+		<geometry>
+		<mesh>
+		<scale>0.001 0.001 0.001</scale>
+		<uri>model://bi_quad/meshes/CAD/Prop1.stl</uri>
+		</mesh>
+		</geometry>
+		<material>
+		<ambient>0 0 1 1.0</ambient>
+		<diffuse>0 0 1 1.0</diffuse>
+		</material>
+	</visual>
+	<gravity>true</gravity>
+	<velocity_decay/>
+	<self_collide>0</self_collide>
+	</link>
+	<joint name='prop3_joint' type='revolute'>
+	<child>prop3</child>
+	<parent>base</parent>
+	<pose>-7.662759549274465e-08 -2.2088590501567753e-06 0.0011497181763331988 0 0 0</pose>
+	<axis>
+		<xyz>0 0 1</xyz>
+		<limit>
+		<lower>-1e+16</lower>
+		<upper>1e+16</upper>
+		</limit>
+		<dynamics>
+		<spring_reference>0</spring_reference>
+		<spring_stiffness>0</spring_stiffness>
+		</dynamics>
+	</axis>
+	</joint>
+
+	<link name='prop4'>
+      <pose>0.1970802016271777 -0.210 -0.06 0.0 -0.0 0.0</pose>
+      <inertial>
+        <mass>0.016076923076923075</mass>
+        <inertia>
+          <ixx>3.8464910483993325e-07</ixx>
+          <iyy>2.6115851691700804e-05</iyy>
+          <izz>2.649858234714004e-05</izz>
+        <!--
+          <ixx>1.1640630462295576e-06</ixx>
+          <ixy>2.971662205222684e-06</ixy>
+          <ixz>3.158489697341338e-10</ixz>
+          <iyy>0.00013504642125216257</iyy>
+          <iyz>8.988965734821677e-12</iyz>
+          <izz>0.00013608623002594824</izz>
+          -->
+        </inertia>
+      </inertial>
+      <collision name='prop4_collision'>
+        <geometry>
+          <cylinder>
+            <length>0.005</length>
+            <radius>0.1</radius>
+          </cylinder>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode/>
+          </friction>
+        </surface>
+      </collision>
+      <visual name='prop4_visual'>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bi_quad/meshes/CAD/Prop2.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0 0 1 1.0</ambient>
+          <diffuse>0 0 1 1.0</diffuse>
+        </material>
+      </visual>
+      <gravity>true</gravity>
+      <velocity_decay/>
+      <self_collide>0</self_collide>
+    </link>
+    <joint name='prop4_joint' type='revolute'>
+      <child>prop4</child>
+      <parent>base</parent>
+      <pose>0.0018565808764078734 0.00021386973639528517 -0.00011891615606227482 0 0 0</pose>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+
+
+			<link name="left_tilt">
+				<self_collide>false</self_collide>
+				<pose>0.1970802016271777 0.20867943375924966 0.0903633202468961 0.0 -0.0 0.0</pose>
+				<inertial>
+					<pose>0.0 0.0 0.0 0 0 0</pose>
+					<mass>0.11178225346146682</mass>
+					<inertia>
+						<ixx>4.599569507079622e-05</ixx>
+						<ixy>3.4183955813915646e-08</ixy>
+						<ixz>1.3992897841678344e-06</ixz>
+						<iyy>3.055340095657755e-05</iyy>
+						<iyz>-4.072897203190706e-07</iyz>
+						<izz>2.7747241743645647e-05</izz>
+					</inertia>
+				</inertial>
+				<collision name="left_tilt_collision">
+					<geometry>
+						<mesh>
+							<uri>model://bi_quad/meshes/CAD/left_tilt.stl</uri>
+							<scale>0.001 0.001 0.001</scale>
+						</mesh>
+					</geometry>
+				</collision>
+				<visual name="left_tilt_visual">
+					<geometry>
+						<mesh>
+							<uri>model://bi_quad/meshes/CAD/left_tilt.stl</uri>
+							<scale>0.001 0.001 0.001</scale>
+						</mesh>
+					</geometry>
+					<material>
+						<ambient>0 0 1 1.0</ambient>
+						<diffuse>0 0 1 1.0</diffuse>
+					</material>
+				</visual>
+			</link>
+			<link name="right_tilt">
+				<self_collide>false</self_collide>
+				<pose>0.1988358901875466 -0.20757372230526244 0.09038961426123086 0.0 -0.0 0.0</pose>
+				<inertial>
+					<pose>0.0 0.0 0.0 0 0 0</pose>
+					<mass>0.11178225346146678</mass>
+					<inertia>
+						<ixx>4.605310565699767e-05</ixx>
+						<ixy>1.4271970499635245e-09</ixy>
+						<ixz>6.437483614664786e-07</ixz>
+						<iyy>3.0533776883067535e-05</iyy>
+						<iyz>-4.153988905954975e-08</iyz>
+						<izz>2.7648072299791693e-05</izz>
+					</inertia>
+				</inertial>
+				<collision name="right_tilt_collision">
+					<geometry>
+						<mesh>
+							<uri>model://bi_quad/meshes/CAD/right_tilt.stl</uri>
+							<scale>0.001 0.001 0.001</scale>
+						</mesh>
+					</geometry>
+				</collision>
+				<visual name="right_tilt_visual">
+					<geometry>
+						<mesh>
+							<uri>model://bi_quad/meshes/CAD/right_tilt.stl</uri>
+							<scale>0.001 0.001 0.001</scale>
+						</mesh>
+					</geometry>
+					<material>
+						<ambient>0 0 1 1.0</ambient>
+						<diffuse>0 0 1 1.0</diffuse>
+					</material>
+				</visual>
+			</link>
+			<joint name="left_joint" type="revolute">
+				<parent>base</parent>
+				<child>left_tilt</child>
+				<pose>0.0016285265354841272 -0.021312948760055832 -0.026363320246896197 0 0 0</pose>
+				<axis>
+					<xyz>0 -1 0</xyz>
+					<limit>
+						<lower>-0.7853981633974483</lower>
+						<upper>0.7853981633974483</upper>
+					</limit>
+					<dynamics>
+          				<damping>0.1</damping>
+        				</dynamics>
+				</axis>
+				<physics>
+					<ode>
+					<implicit_spring_damper>0</implicit_spring_damper>
+					</ode>
+				</physics>
+
+			</joint>
+			<joint name="right_joint" type="revolute">
+				<parent>base</parent>
+				<child>right_tilt</child>
+				<pose>0.0010467769884695954 -0.021032214828628142 -0.026389614261231122 0 0 0</pose>
+				<axis>
+					<xyz>0 -1 0</xyz>
+					<limit>
+						<lower>-0.7853981633974483</lower>
+						<upper>0.7853981633974483</upper>
+					</limit>
+					<dynamics>
+          				<damping>0.1</damping>
+        				</dynamics>
+				</axis>
+				<physics>
+					<ode>
+					<implicit_spring_damper>0</implicit_spring_damper>
+					</ode>
+				</physics>
+			</joint>
+
+	<plugin filename="gz-sim-lift-drag-system" name="gz::sim::systems::LiftDrag">
+	<a0>0.05984281113</a0>
+	<cla>4.752798721</cla>
+	<cda>0.6417112299</cda>
+	<cma>0.0</cma>
+	<alpha_stall>0.3391428111</alpha_stall>
+	<cla_stall>-3.85</cla_stall>
+	<cda_stall>-0.9233984055</cda_stall>
+	<cma_stall>0</cma_stall>
+	<cp>-0.05 0.3 0.05</cp>
+	<area>0.50</area>
+	<air_density>1.2041</air_density>
+	<forward>1 0 0</forward>
+	<upward>0 0 1</upward>
+	<link_name>base</link_name>
+	<control_joint_name>left_joint</control_joint_name>
+	<control_joint_rad_to_cl>-1.0</control_joint_rad_to_cl>
+	</plugin>
+	<plugin
+	filename="gz-sim-joint-position-controller-system" name="gz::sim::systems::JointPositionController">
+	<joint_name>left_joint</joint_name>
+	<sub_topic>left_joint</sub_topic>
+	</plugin>
+
+    <plugin filename="gz-sim-lift-drag-system" name="gz::sim::systems::LiftDrag">
+      <a0>0.05984281113</a0>
+      <cla>4.752798721</cla>
+      <cda>0.6417112299</cda>
+      <cma>0.0</cma>
+      <alpha_stall>0.3391428111</alpha_stall>
+      <cla_stall>-3.85</cla_stall>
+      <cda_stall>-0.9233984055</cda_stall>
+      <cma_stall>0</cma_stall>
+      <cp>-0.05 -0.3 0.05</cp>
+      <area>0.50</area>
+      <air_density>1.2041</air_density>
+      <forward>1 0 0</forward>
+      <upward>0 0 1</upward>
+      <link_name>base</link_name>
+      <control_joint_name>right_joint</control_joint_name>
+      <control_joint_rad_to_cl>-1.0</control_joint_rad_to_cl>
+    </plugin>
+    <plugin
+      filename="gz-sim-joint-position-controller-system" name="gz::sim::systems::JointPositionController">
+      <joint_name>right_joint</joint_name>
+      <sub_topic>right_joint</sub_topic>
+    </plugin>
+
+    <plugin filename="gz-sim-multicopter-motor-model-system" name="gz::sim::systems::MulticopterMotorModel">
+      <jointName>prop1_joint</jointName>
+      <linkName>prop1</linkName>
+      <turningDirection>ccw</turningDirection>
+      <timeConstantUp>0.0125</timeConstantUp>
+      <timeConstantDown>0.025</timeConstantDown>
+      <maxRotVelocity>1000</maxRotVelocity>
+      <motorConstant>8.54858e-06</motorConstant>
+      <momentConstant>0.016</momentConstant>
+      <commandSubTopic>command/motor_speed</commandSubTopic>
+      <motorNumber>0</motorNumber>
+      <rotorDragCoefficient>8.06428e-05</rotorDragCoefficient>
+      <rollingMomentCoefficient>1e-06</rollingMomentCoefficient>
+      <rotorVelocitySlowdownSim>10</rotorVelocitySlowdownSim>
+      <motorType>velocity</motorType>
+    </plugin>
+
+    <plugin filename="gz-sim-multicopter-motor-model-system" name="gz::sim::systems::MulticopterMotorModel">
+      <jointName>prop2_joint</jointName>
+      <linkName>prop2</linkName>
+      <turningDirection>cw</turningDirection>
+      <timeConstantUp>0.0125</timeConstantUp>
+      <timeConstantDown>0.025</timeConstantDown>
+      <maxRotVelocity>1000</maxRotVelocity>
+      <motorConstant>8.54858e-06</motorConstant>
+      <momentConstant>0.016</momentConstant>
+      <commandSubTopic>command/motor_speed</commandSubTopic>
+      <motorNumber>1</motorNumber>
+      <rotorDragCoefficient>8.06428e-05</rotorDragCoefficient>
+      <rollingMomentCoefficient>1e-06</rollingMomentCoefficient>
+      <rotorVelocitySlowdownSim>10</rotorVelocitySlowdownSim>
+      <motorType>velocity</motorType>
+    </plugin>
+
+    <plugin filename="gz-sim-multicopter-motor-model-system" name="gz::sim::systems::MulticopterMotorModel">
+      <jointName>prop3_joint</jointName>
+      <linkName>prop3</linkName>
+      <turningDirection>ccw</turningDirection>
+      <timeConstantUp>0.0125</timeConstantUp>
+      <timeConstantDown>0.025</timeConstantDown>
+      <maxRotVelocity>1000</maxRotVelocity>
+      <motorConstant>8.54858e-06</motorConstant>
+      <momentConstant>0.016</momentConstant>
+      <commandSubTopic>command/motor_speed</commandSubTopic>
+      <motorNumber>2</motorNumber>
+      <rotorDragCoefficient>8.06428e-05</rotorDragCoefficient>
+      <rollingMomentCoefficient>1e-06</rollingMomentCoefficient>
+      <rotorVelocitySlowdownSim>10</rotorVelocitySlowdownSim>
+      <motorType>velocity</motorType>
+    </plugin>
+
+    <plugin filename="gz-sim-multicopter-motor-model-system" name="gz::sim::systems::MulticopterMotorModel">
+      <jointName>prop4_joint</jointName>
+      <linkName>prop4</linkName>
+      <turningDirection>cw</turningDirection>
+      <timeConstantUp>0.0125</timeConstantUp>
+      <timeConstantDown>0.025</timeConstantDown>
+      <maxRotVelocity>1000</maxRotVelocity>
+      <motorConstant>8.54858e-06</motorConstant>
+      <momentConstant>0.016</momentConstant>
+      <commandSubTopic>command/motor_speed</commandSubTopic>
+      <motorNumber>3</motorNumber>
+      <rotorDragCoefficient>8.06428e-05</rotorDragCoefficient>
+      <rollingMomentCoefficient>1e-06</rollingMomentCoefficient>
+      <rotorVelocitySlowdownSim>10</rotorVelocitySlowdownSim>
+      <motorType>velocity</motorType>
+    </plugin>
+
+
+			<static>0</static>
+		</model>
+	</sdf>

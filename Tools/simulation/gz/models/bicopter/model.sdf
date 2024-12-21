@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- DO NOT EDIT: Generated from standard_vtol.sdf.jinja -->
+<sdf version='1.10'>
+  <model name='bicopter'>
+  <pose>0 0 0.1 0 0 0</pose>
+    <link name='base_link'>
+      <inertial>
+        <mass>0.92</mass>
+        <inertia>
+          <ixx>0.01583</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.00254</iyy>
+          <iyz>0</iyz>
+          <izz>0.0146</izz>
+        </inertia>
+      </inertial>
+      <collision name='base_link_collision'>
+        <geometry>
+          <box>
+            <size>0.55 2.144 0.05</size>
+          </box>
+        </geometry>
+        <surface>
+          <contact>
+            <ode>
+              <max_vel>0</max_vel>
+              <min_depth>0.001</min_depth>
+            </ode>
+          </contact>
+          <friction>
+            <ode/>
+          </friction>
+        </surface>
+      </collision>
+      <visual name='base_link_visual'>
+      <pose>0 0 0.1 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bicopter/meshes/CAD/Base.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>.175 .175 .175 1.0</ambient>
+          <diffuse>.175 .175 .175 1.0</diffuse>
+        </material>
+      </visual>
+      <gravity>true</gravity>
+      <velocity_decay/>
+      <self_collide>0</self_collide>
+      <sensor name="imu_sensor" type="imu">
+        <always_on>1</always_on>
+        <update_rate>250</update_rate>
+        <imu>
+          <angular_velocity>
+            <x>
+              <noise type="gaussian">
+                <mean>0</mean>
+                <stddev>0.0003394</stddev>
+                <dynamic_bias_stddev>3.8785e-05</dynamic_bias_stddev>
+                <dynamic_bias_correlation_time>1000</dynamic_bias_correlation_time>
+              </noise>
+            </x>
+            <y>
+              <noise type="gaussian">
+                <mean>0</mean>
+                <stddev>0.0003394</stddev>
+                <dynamic_bias_stddev>3.8785e-05</dynamic_bias_stddev>
+                <dynamic_bias_correlation_time>1000</dynamic_bias_correlation_time>
+              </noise>
+            </y>
+            <z>
+              <noise type="gaussian">
+                <mean>0</mean>
+                <stddev>0.0003394</stddev>
+                <dynamic_bias_stddev>3.8785e-05</dynamic_bias_stddev>
+                <dynamic_bias_correlation_time>1000</dynamic_bias_correlation_time>
+              </noise>
+            </z>
+          </angular_velocity>
+          <linear_acceleration>
+            <x>
+              <noise type="gaussian">
+                <mean>0</mean>
+                <stddev>0.004</stddev>
+                <dynamic_bias_stddev>0.006</dynamic_bias_stddev>
+                <dynamic_bias_correlation_time>300</dynamic_bias_correlation_time>
+              </noise>
+            </x>
+            <y>
+              <noise type="gaussian">
+                <mean>0</mean>
+                <stddev>0.004</stddev>
+                <dynamic_bias_stddev>0.006</dynamic_bias_stddev>
+                <dynamic_bias_correlation_time>300</dynamic_bias_correlation_time>
+              </noise>
+            </y>
+            <z>
+              <noise type="gaussian">
+                <mean>0</mean>
+                <stddev>0.004</stddev>
+                <dynamic_bias_stddev>0.006</dynamic_bias_stddev>
+                <dynamic_bias_correlation_time>300</dynamic_bias_correlation_time>
+              </noise>
+            </z>
+          </linear_acceleration>
+        </imu>
+      </sensor>
+      <sensor name="air_pressure_sensor" type="air_pressure">
+        <always_on>1</always_on>
+        <update_rate>50</update_rate>
+        <air_pressure>
+          <pressure>
+            <noise type="gaussian">
+              <mean>0</mean>
+              <stddev>0.01</stddev>
+            </noise>
+          </pressure>
+        </air_pressure>
+      </sensor>
+      <sensor name="navsat_sensor" type="navsat">
+        <always_on>1</always_on>
+        <update_rate>30</update_rate>
+      </sensor>
+    </link>
+
+    <link name='prop1'>
+      <pose>-9.036680063686122e-05 0.200 0.21893393233816349 0.0 -0.0 0.0</pose>
+      <inertial>
+        <mass>0.016076923076923075</mass>
+        <inertia>
+          <ixx>3.8464910483993325e-07</ixx>
+          <iyy>2.6115851691700804e-05</iyy>
+          <izz>2.649858234714004e-05</izz>
+        <!--
+          <ixx>1.1640630462295576e-06</ixx>
+          <ixy>2.971662205222684e-06</ixy>
+          <ixz>3.158489697341338e-10</ixz>
+          <iyy>0.00013504642125216257</iyy>
+          <iyz>8.988965734821677e-12</iyz>
+          <izz>0.00013608623002594824</izz>
+          -->
+        </inertia>
+      </inertial>
+      <collision name='prop1_collision'>
+        <geometry>
+          <cylinder>
+            <length>0.005</length>
+            <radius>0.1</radius>
+          </cylinder>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode/>
+          </friction>
+        </surface>
+      </collision>
+      <visual name='prop1_visual'>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bicopter/meshes/CAD/Prop1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0 0 1 1.0</ambient>
+          <diffuse>0 0 1 1.0</diffuse>
+        </material>
+      </visual>
+      <gravity>true</gravity>
+      <velocity_decay/>
+      <self_collide>0</self_collide>
+    </link>
+    <joint name='prop1_joint' type='revolute'>
+      <child>prop1</child>
+      <parent>right_motor</parent>
+      <pose>-7.662759549274465e-08 -2.2088590501567753e-06 0.0011497181763331988 0 0 0</pose>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+
+    <link name='prop2'>
+      <pose>-0.0018565808764078734 -0.200 0.21891615606227482 0.0 -0.0 0.0</pose>
+      <inertial>
+        <mass>0.016076923076923075</mass>
+        <inertia>
+          <ixx>3.8464910483993325e-07</ixx>
+          <iyy>2.6115851691700804e-05</iyy>
+          <izz>2.649858234714004e-05</izz>
+        <!--
+          <ixx>1.1640630462295576e-06</ixx>
+          <ixy>2.971662205222684e-06</ixy>
+          <ixz>3.158489697341338e-10</ixz>
+          <iyy>0.00013504642125216257</iyy>
+          <iyz>8.988965734821677e-12</iyz>
+          <izz>0.00013608623002594824</izz>
+          -->
+        </inertia>
+      </inertial>
+      <collision name='prop2_collision'>
+        <geometry>
+          <cylinder>
+            <length>0.005</length>
+            <radius>0.1</radius>
+          </cylinder>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode/>
+          </friction>
+        </surface>
+      </collision>
+      <visual name='prop2_visual'>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bicopter/meshes/CAD/Prop2.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0 0 1 1.0</ambient>
+          <diffuse>0 0 1 1.0</diffuse>
+        </material>
+      </visual>
+      <gravity>true</gravity>
+      <velocity_decay/>
+      <self_collide>0</self_collide>
+    </link>
+    <joint name='prop2_joint' type='revolute'>
+      <child>prop2</child>
+      <parent>left_motor</parent>
+      <pose>0.0018565808764078734 0.00021386973639528517 -0.00011891615606227482 0 0 0</pose>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+
+    <link name="left_motor">
+    <self_collide>false</self_collide>
+    <pose>-0.0018503180795652564 -0.2000 0.18750066333507596 0.0 -0.0 0.0</pose>
+      <inertial>
+        <mass>0.016076923076923075</mass>
+        <inertia>
+          <ixx>3.8464910483993325e-07</ixx>
+          <iyy>2.6115851691700804e-05</iyy>
+          <izz>2.649858234714004e-05</izz>
+        <!--
+            <ixx>6.69545282675248e-05</ixx>
+            <ixy>-7.237744300330529e-07</ixy>
+            <ixz>5.362833716432646e-07</ixz>
+            <iyy>6.666490479724132e-05</iyy>
+            <iyz>2.631016280816706e-06</iyz>
+            <izz>3.6764671768564484e-05</izz>
+            -->
+        </inertia>
+      </inertial>
+      <collision name='left_motor_collision'>
+        <geometry>
+          <cylinder>
+            <length>0.005</length>
+            <radius>0.1</radius>
+          </cylinder>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode/>
+          </friction>
+        </surface>
+      </collision>
+      <visual name='left_motor_visual'>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bicopter/meshes/CAD/left_motor.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0 0 1 1.0</ambient>
+          <diffuse>0 0 1 1.0</diffuse>
+        </material>
+      </visual>
+    </link>
+    <link name="right_motor">
+    <self_collide>false</self_collide>
+    <pose>0.0005984060134381001 0.2000 0.18752609926565091 0.0 -0.0 0.0</pose>
+      <inertial>
+        <mass>0.016076923076923075</mass>
+        <inertia>
+            <ixx>3.8464910483993325e-07</ixx>
+            <iyy>2.6115851691700804e-05</iyy>
+            <izz>2.649858234714004e-05</izz>
+        <!--
+          <ixx>6.695450978546038e-05</ixx>
+          <ixy>-7.11724220203866e-07</ixy>
+          <ixz>-5.521676108585893e-07</ixz>
+          <iyy>6.676667697931578e-05</iyy>
+          <iyz>-1.966915053746664e-06</iyz>
+          <izz>3.6662873400838695e-05</izz>
+          -->
+        </inertia>
+      </inertial>
+      <collision name='right_motor_collision'>
+        <geometry>
+          <cylinder>
+            <length>0.005</length>
+            <radius>0.1</radius>
+          </cylinder>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode/>
+          </friction>
+        </surface>
+      </collision>
+      <visual name='right_motor_visual'>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bicopter/meshes/CAD/right_motor.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0 0 1 1.0</ambient>
+          <diffuse>0 0 1 1.0</diffuse>
+        </material>
+      </visual>
+    </link>
+    <joint name='servo_0' type='revolute'>
+      <parent>base_link</parent>
+      <child>left_motor</child>
+      <pose>0.0017004874751392273 0.02115363083829493 -0.04755094629310131 0 0 0</pose>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-0.785</lower>
+          <upper>0.785</upper>
+        </limit>
+        <dynamics>
+          <damping>0.1</damping>
+        </dynamics>
+      </axis>
+      <physics>
+        <ode>
+          <implicit_spring_damper>0</implicit_spring_damper>
+        </ode>
+      </physics>
+    </joint>
+    <joint name='servo_1' type='revolute'>
+      <parent>base_link</parent>
+      <child>right_motor</child>
+      <pose>-0.0006054495817779899 -0.021143599237930105 -0.04914311840568893 0 0 0</pose>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-0.785</lower>
+          <upper>0.785</upper>
+        </limit>
+        <dynamics>
+          <damping>0.1</damping>
+        </dynamics>
+      </axis>
+      <physics>
+        <ode>
+          <implicit_spring_damper>0</implicit_spring_damper>
+        </ode>
+      </physics>
+    </joint>
+
+    <plugin filename="gz-sim-lift-drag-system" name="gz::sim::systems::LiftDrag">
+      <a0>0.05984281113</a0>
+      <cla>4.752798721</cla>
+      <cda>0.6417112299</cda>
+      <cma>0.0</cma>
+      <alpha_stall>0.3391428111</alpha_stall>
+      <cla_stall>-3.85</cla_stall>
+      <cda_stall>-0.9233984055</cda_stall>
+      <cma_stall>0</cma_stall>
+      <cp>-0.05 0.3 0.05</cp>
+      <area>0.50</area>
+      <air_density>1.2041</air_density>
+      <forward>1 0 0</forward>
+      <upward>0 0 1</upward>
+      <link_name>base_link</link_name>
+      <control_joint_name>servo_0</control_joint_name>
+      <control_joint_rad_to_cl>-1.0</control_joint_rad_to_cl>
+    </plugin>
+    <plugin
+      filename="gz-sim-joint-position-controller-system" name="gz::sim::systems::JointPositionController">
+      <joint_name>servo_0</joint_name>
+      <sub_topic>servo_0</sub_topic>
+    </plugin>
+    <plugin filename="gz-sim-lift-drag-system" name="gz::sim::systems::LiftDrag">
+      <a0>0.05984281113</a0>
+      <cla>4.752798721</cla>
+      <cda>0.6417112299</cda>
+      <cma>0.0</cma>
+      <alpha_stall>0.3391428111</alpha_stall>
+      <cla_stall>-3.85</cla_stall>
+      <cda_stall>-0.9233984055</cda_stall>
+      <cma_stall>0</cma_stall>
+      <cp>-0.05 -0.3 0.05</cp>
+      <area>0.50</area>
+      <air_density>1.2041</air_density>
+      <forward>1 0 0</forward>
+      <upward>0 0 1</upward>
+      <link_name>base_link</link_name>
+      <control_joint_name>servo_1</control_joint_name>
+      <control_joint_rad_to_cl>-1.0</control_joint_rad_to_cl>
+    </plugin>
+    <plugin
+      filename="gz-sim-joint-position-controller-system" name="gz::sim::systems::JointPositionController">
+      <joint_name>servo_1</joint_name>
+      <sub_topic>servo_1</sub_topic>
+    </plugin>
+
+    <plugin filename="gz-sim-multicopter-motor-model-system" name="gz::sim::systems::MulticopterMotorModel">
+      <jointName>prop1_joint</jointName>
+      <linkName>prop1</linkName>
+      <turningDirection>ccw</turningDirection>
+      <timeConstantUp>0.0125</timeConstantUp>
+      <timeConstantDown>0.025</timeConstantDown>
+      <maxRotVelocity>1000</maxRotVelocity>
+      <motorConstant>8.54858e-06</motorConstant>
+      <momentConstant>0.016</momentConstant>
+      <commandSubTopic>command/motor_speed</commandSubTopic>
+      <motorNumber>0</motorNumber>
+      <rotorDragCoefficient>8.06428e-05</rotorDragCoefficient>
+      <rollingMomentCoefficient>1e-06</rollingMomentCoefficient>
+      <rotorVelocitySlowdownSim>10</rotorVelocitySlowdownSim>
+      <motorType>velocity</motorType>
+    </plugin>
+
+    <plugin filename="gz-sim-multicopter-motor-model-system" name="gz::sim::systems::MulticopterMotorModel">
+      <jointName>prop2_joint</jointName>
+      <linkName>prop2</linkName>
+      <turningDirection>cw</turningDirection>
+      <timeConstantUp>0.0125</timeConstantUp>
+      <timeConstantDown>0.025</timeConstantDown>
+      <maxRotVelocity>1000</maxRotVelocity>
+      <motorConstant>8.54858e-06</motorConstant>
+      <momentConstant>0.016</momentConstant>
+      <commandSubTopic>command/motor_speed</commandSubTopic>
+      <motorNumber>1</motorNumber>
+      <rotorDragCoefficient>8.06428e-05</rotorDragCoefficient>
+      <rollingMomentCoefficient>1e-06</rollingMomentCoefficient>
+      <rotorVelocitySlowdownSim>10</rotorVelocitySlowdownSim>
+      <motorType>velocity</motorType>
+    </plugin>
+
+    <static>0</static>
+  </model>
+</sdf>
