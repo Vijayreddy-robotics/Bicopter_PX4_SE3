@@ -111,30 +111,11 @@ bool PositionControl::update(const float dt)
 	bool valid = _inputValid();
 
 	if (valid) {
-		/*
-		std::cout << "pos_sp: ["
-              		<< _pos_sp(0) << ", "
-              		<< _pos_sp(1) << ", "
-              		<< _pos_sp(2) << "]"
-              		<< std::endl;
-
-		std::cout << "_gain_pos_p: ["
-              		<< _gain_pos_p(0) << ", "
-              		<< _gain_pos_p(1) << ", "
-              		<< _gain_pos_p(2) << "]"
-              		<< std::endl;
-
-		std::cout << "_gain_vel_p: ["
-              		<< _gain_vel_p(0) << ", "
-              		<< _gain_vel_p(1) << ", "
-              		<< _gain_vel_p(2) << "]"
-              		<< std::endl;
-		*/
 		//_positionControl();
 		_velocityControl(dt);
 
 		_yawspeed_sp = PX4_ISFINITE(_yawspeed_sp) ? _yawspeed_sp : 0.f;
-		_yaw_sp = PX4_ISFINITE(_yaw_sp) ? _yaw_sp : 0.f; // TODO: better way to disable yaw control
+		_yaw_sp = PX4_ISFINITE(_yaw_sp) ? _yaw_sp : _yaw; // TODO: better way to disable yaw control
 	}
 
 	// There has to be a valid output acceleration and thrust setpoint otherwise something went wrong
