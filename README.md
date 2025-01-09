@@ -8,3 +8,5 @@
 ### 4. The Bicopter meshes with the .sdf files were added in ---- using name.
 
 ## For further details such as installation, visit the main page 
+
+## Note that the file AttitudeControl.cpp  in src/modules/mc_att_control/AttitudeControl/AttitudeControl.cpp don't have significane since the rate_setpoint is directly calculated from the attitude_setpoint
