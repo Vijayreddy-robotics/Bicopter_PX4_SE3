@@ -5,9 +5,11 @@
 
 ### For further details such as installation, visit the main page 
 
-### --> The Bicopter mixer module is added in ------- using the name:
+## Code changes
 
-### -->  The Bicopter meshes with the .sdf files were added in ---- using the name.
+### --> The new airframe for Bicopter is added in PX4-Autopilot/ROMFS/px4fmu_common/init.d-posix/airframes:
+
+### -->  The Bicopter meshes and the model.sdf files are added in PX4-Autopilot/Tools/simulation/gz/models/bicopter.
 
 ### --> Attitude control on SO(3) is implemented in rate_ontrol.cpp file in the module src/lib/rate_control and  src/modules/mc_rate_control/MulticopterRateControl.cpp 
 
