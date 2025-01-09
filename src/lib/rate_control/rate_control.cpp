@@ -83,9 +83,6 @@ Vector3f RateControl::update(const Vector3f &rate, const Vector3f &rate_sp, cons
 	Matrix3f Rd_dot = (Rd - Rd_prev)/dt;
 	Matrix3f Wd_hat = Rd.transpose()*Rd_dot;
 	Vector3f Wd = Dcmf(Wd_hat).vee();
-	//Matrix3f Rd_d_dot = (Rd_dot - Rd_dot_prev)/dt;
-	//Matrix3f Wd_dot_hat = Rd_dot.transpose()*Rd_dot + Rd.transpose()*Rd_d_dot;
-	//Vector3f Wd_dot = Vector3f(Wd_dot_hat(2, 1), Wd_dot_hat(0, 2), Wd_dot_hat(1, 0));
 	Vector3f Wd_dot = (Wd - Wd_prev)/dt;
 	Wd_dot = Wd_dot;
 
@@ -104,19 +101,7 @@ Vector3f RateControl::update(const Vector3f &rate, const Vector3f &rate_sp, cons
 
 	Vector3f K_R = Vector3f(0.45f, 0.4f, 0.45f);
 	Vector3f K_Omega = Vector3f(0.125f, 0.1f, 0.05f);
-	/*
-	std::cout << "_gain_p: ["
-              		<< _gain_p(0) << ", "
-              		<< _gain_p(1) << ", "
-              		<< _gain_p(2) << "]"
-              		<< std::endl;
-
-	std::cout << "_gain_i: ["
-              		<< _gain_i(0) << ", "
-              		<< _gain_i(1) << ", "
-              		<< _gain_i(2) << "]"
-              		<< std::endl;
-	*/
+	
 	//const Vector3f torque = -_gain_p.emult(eR)- _gain_i.emult(eOmega) + rate.cross(J_*rate) - J_*Omega_cap*eQ.transpose()*Wd  ;//+ J_*eQ.transpose()*Wd_dot;
 	//const Vector3f torque = -K_R.emult(eR)  - K_Omega.emult(eOmega) - J_*eOmega_cap*eQ.transpose()*rate_sp + rate.cross(J_*rate) + J_*eQ.transpose()*omega_hat_dot;
 	const Vector3f torque = -K_R.emult(eR)- K_Omega.emult(eOmega) + rate.cross(J_*rate) - J_*Omega_cap*eQ.transpose()*Wd  ;
@@ -124,17 +109,7 @@ Vector3f RateControl::update(const Vector3f &rate, const Vector3f &rate_sp, cons
 
 	Rd_prev = Rd;
 	Wd_prev = Wd;
-	//Rd_dot_prev = Rd_dot;
-	/*
-	// angular rates error
-	Vector3f rate_error = rate_sp - rate;
-
-	// PID control with feed forward
-	const Vector3f torque = _gain_p.emult(rate_error) + _rate_int - _gain_d.emult(angular_accel) + _gain_ff.emult(rate_sp);
-	*/
-	//torque(2) = 0.0f;
-
-
+	
 	return torque;
 }
 
