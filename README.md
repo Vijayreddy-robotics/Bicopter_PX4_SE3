@@ -9,4 +9,5 @@
 
 ## For further details such as installation, visit the main page 
 
-## Note that the file AttitudeControl.cpp  in src/modules/mc_att_control/AttitudeControl/AttitudeControl.cpp don't have significane since the rate_setpoint is directly calculated from the attitude_setpoint
+## Attitude control on SO(3) is implemented in RateControl.cpp file in the module src/lib/rate_control/rate_control.cpp and  src/modules/mc_rate_control/MulticopterRateControl.cpp 
+## Note that the file AttitudeControl.cpp  in src/modules/mc_att_control/AttitudeControl/AttitudeControl.cpp don't have significance since the rate_setpoint is directly calculated from the attitude_setpoint
