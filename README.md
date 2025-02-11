@@ -8,17 +8,17 @@ Tested with the hardware: Pixhawk v2.4.8
 
 ## Code changes
 
-#### --> A new airframe for Bicopter is added in `PX4-Autopilot/ROMFS/px4fmu_common/init.d-posix/airframes`:
+ --> A new airframe for Bicopter is added in `PX4-Autopilot/ROMFS/px4fmu_common/init.d-posix/airframes`:
 
-#### -->  The Bicopter `meshes` and the `model.sdf` files are added in `PX4-Autopilot/Tools/simulation/gz/models/bicopter`.
+ -->  The Bicopter `meshes` and the `model.sdf` files are added in `PX4-Autopilot/Tools/simulation/gz/models/bicopter`.
 
-#### --> Attitude control on SO(3) is implemented in the `rate_ontrol.cpp` file in the module `src/lib/rate_contro`l and  `src/modules/mc_rate_control/MulticopterRateControl.cpp` 
+ --> Attitude control on SO(3) is implemented in the `rate_ontrol.cpp` file in the module `src/lib/rate_control` and `src/modules/mc_rate_control/MulticopterRateControl.cpp` 
 
-#### --> Position control on SE(3) is implemented in `PositionControl.cpp` in module `src/modules/mc_pos_control`
+ --> Position control on SE(3) is implemented in `PositionControl.cpp` in module `src/modules/mc_pos_control`
 
-#### Note that the file `AttitudeControl.cpp`  in `src/modules/mc_att_control/AttitudeControl/AttitudeControl.cpp` is insignificant since the `rate_setpoint` is directly calculated from the `attitude_setpoint` in `rate_control.cpp`
+ Note that the file `AttitudeControl.cpp`  in `src/modules/mc_att_control/AttitudeControl/AttitudeControl.cpp` is insignificant since the `rate_setpoint` is directly calculated from the `attitude_setpoint` in `rate_control.cpp`
 
-#### For further details such as installation, visit the main page 
+#### For further details such as installation, visit the main px4 document page : https://docs.px4.io/main/ 
 
 ## Instructions
 
