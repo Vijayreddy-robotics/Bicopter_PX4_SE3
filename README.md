@@ -2,6 +2,9 @@
 
 #### This repository used the PX4 flight stack and developed Bicopter UAV Gazebo simulations. The control mixer is modified according to the Bicopter UAV, and the attitude and position controllers are replaced by a geometric controller on SE(3). The same code can be used for hardware implementation.
 
+Software Version: v1.15.0 (beta)
+
+Tested with the hardware: Pixhawk v2.4.8
 
 ## Code changes
 
