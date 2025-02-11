@@ -18,11 +18,11 @@ Tested with the hardware: Pixhawk v2.4.8
 
  Note that the file `AttitudeControl.cpp`  in `src/modules/mc_att_control/AttitudeControl/AttitudeControl.cpp` is insignificant since the `rate_setpoint` is directly calculated from the `attitude_setpoint` in `rate_control.cpp`
 
-#### For further details such as installation, visit the main px4 document page : https://docs.px4.io/main/ 
+#### For further details such as installation, visit the main px4 document page: https://docs.px4.io/main/ 
 
 ## Instructions
 
---> After installation, to run the Bicopter in SITL Gazebo use 
+--> After installation, to run the Bicopter in SITL Gazebo, use 
 ```bash
     /PX4-Autopilot$ make px4_sitl gz_bicopter
 ```
