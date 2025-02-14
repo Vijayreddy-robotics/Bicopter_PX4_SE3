@@ -36,7 +36,6 @@
  */
 
 #include <AttitudeControl.hpp>
-#include <iostream>
 
 #include <mathlib/math/Functions.hpp>
 
@@ -53,19 +52,10 @@ void AttitudeControl::setProportionalGain(const matrix::Vector3f &proportional_g
 	}
 }
 
-matrix::Vector3f AttitudeControl::update(const Quatf &q,float dt) const
+matrix::Vector3f AttitudeControl::update(const Quatf &q) const
 {
 	Quatf qd = _attitude_setpoint_q;
-	/*
-	if(counter ==1){
-		qd_prev = qd;
-		//R_prev = R_prev{qd_prev};
-	}
 
-	counter+=1;
-	*/
-
-	/*
 	// calculate reduced desired attitude neglecting vehicle's yaw to prioritize roll and pitch
 	const Vector3f e_z = q.dcm_z();
 	const Vector3f e_z_d = qd.dcm_z();
@@ -89,23 +79,6 @@ matrix::Vector3f AttitudeControl::update(const Quatf &q,float dt) const
 	q_mix(0) = math::constrain(q_mix(0), -1.f, 1.f);
 	q_mix(3) = math::constrain(q_mix(3), -1.f, 1.f);
 	qd = qd_red * Quatf(cosf(_yaw_w * acosf(q_mix(0))), 0, 0, sinf(_yaw_w * asinf(q_mix(3))));
-T	*/
-
-	matrix::Vector4f q_dot = (qd - qd_prev)/dt;
-	matrix::Vector3f omega_d =  2.0f*(qd.inversed()*q_dot).canonical().imag();
-	//matrix::Vector3f omega_d =  (2.0f/dt)*Vector3f((q1.inversed()*q2).imag());
-	qd_prev = qd;
-	omega_d = omega_d;
-	/*
-	 std::cout << "qd: ["
-              << qd(0) << ", "
-              << qd(1) << ", "
-	      << qd(2) << ", "
-              << qd(3) << "]"
-              << std::endl;
-	*/
-
-
 
 	// quaternion attitude control law, qe is rotation from q to qd
 	const Quatf qe = q.inversed() * qd;
@@ -115,7 +88,7 @@ T	*/
 	const Vector3f eq = 2.f * qe.canonical().imag();
 
 	// calculate angular rates setpoint
-	matrix::Vector3f rate_setpoint = eq.emult(_proportional_gain);
+	Vector3f rate_setpoint = eq.emult(_proportional_gain);
 
 	// Feed forward the yaw setpoint rate.
 	// yawspeed_setpoint is the feed forward commanded rotation around the world z-axis,
@@ -124,34 +97,14 @@ T	*/
 	// and multiply it by the yaw setpoint rate (yawspeed_setpoint).
 	// This yields a vector representing the commanded rotatation around the world z-axis expressed in the body frame
 	// such that it can be added to the rates setpoint.
-
-
 	if (std::isfinite(_yawspeed_setpoint)) {
 		rate_setpoint += q.inversed().dcm_z() * _yawspeed_setpoint;
 	}
 
-	/*
-	//Dcmf R_hat = qd.Quaternion();
-	Dcm<float> R_hat(qd); // Convert quaternion to DCM
-	// Calculate angular velocity: ω = vee(R_sp^T * (R_sp - R_prev) / dt)
-    	matrix::Matrix3f R_dot = (R_hat-R_prev)/dt ;
-    	Matrix3f omega_matrix = R_hat.transpose() * R_dot;
-    	matrix::Vector3f rate_setpoint2 = Vector3f(omega_matrix(2, 1), omega_matrix(0, 2), omega_matrix(1, 0));
-	R_prev = R_hat;
-	*/
 	// limit rates
-	/*
 	for (int i = 0; i < 3; i++) {
 		rate_setpoint(i) = math::constrain(rate_setpoint(i), -_rate_limit(i), _rate_limit(i));
 	}
-	*/
-	/*
-	std::cout << "omega_d: ["
-              << omega_d(0) << ", "
-              << omega_d(1) << ", "
-              << omega_d(2) << "]"
-              << std::endl;
-	*/
 
 	return rate_setpoint;
 }
