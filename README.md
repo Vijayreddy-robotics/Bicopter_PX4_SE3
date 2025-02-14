@@ -12,7 +12,7 @@ Gazebo: Gazebo Sim v8.6.0
 
 ## Code changes
 
- --> A new airframe for Bicopter is added in `PX4-Autopilot/ROMFS/px4fmu_common/init.d-posix/airframes`:
+ --> A new airframe for Bicopter is added in `PX4-Autopilot/ROMFS/px4fmu_common/init.d-posix/airframes/2101_gz_bicopter`:
 
  -->  The Bicopter `meshes` and the `model.sdf` files are added in `PX4-Autopilot/Tools/simulation/gz/models/bicopter`.
 
