@@ -98,11 +98,7 @@ public:
 	 * @param q estimation of the current vehicle attitude unit quaternion
 	 * @return [rad/s] body frame 3D angular rate setpoint vector to be executed by the rate controller
 	 */
-	matrix::Vector3f update(const matrix::Quatf &q,float dt) const;
-
-	//matrix::Dcm R_hat;
-
-
+	matrix::Vector3f update(const matrix::Quatf &q) const;
 
 private:
 	matrix::Vector3f _proportional_gain;
@@ -111,12 +107,4 @@ private:
 
 	matrix::Quatf _attitude_setpoint_q; ///< latest known attitude setpoint e.g. from position control
 	float _yawspeed_setpoint{0.f}; ///< latest known yawspeed feed-forward setpoint
-
-	float Id[9] = { 1.0f, 0.0f, 0.0f, 0.0f, 1.0f, 0.0f, 0.0f, 0.0f, 1.0f };
-	float Init_heading[9] = { 0.0f, -1.0f, 0.0f, 1.0f, 0.0f, 0.0f, 0.0f, 0.0f, 1.0f };
-
-	//mutable matrix::MatrixfSO3 R_prev{Id};
-	mutable matrix::Dcm<float> R_prev{Init_heading};
-	mutable matrix::Quatf qd_prev{0.71637, 0, 0, 0.697721};
-	mutable int counter = 1;
 };
